@@ -1,0 +1,2705 @@
+{
+  "mission_profile": "Deep Space Transit / Lunar-Mars Analog (180 Days)",
+  "telemetry": [
+    {
+      "mission_day": 1,
+      "earth_comm_delay_min": 0.2,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.99,
+        "resting_heart_rate": 68,
+        "cumulative_radiation_msv": 0.84,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 1.99,
+        "sleep_hours": 6.9,
+        "pvt_reaction_ms": 253
+      }
+    },
+    {
+      "mission_day": 2,
+      "earth_comm_delay_min": 0.3,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.98,
+        "resting_heart_rate": 58,
+        "cumulative_radiation_msv": 1.69,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 1.86,
+        "sleep_hours": 7.8,
+        "pvt_reaction_ms": 261
+      }
+    },
+    {
+      "mission_day": 3,
+      "earth_comm_delay_min": 0.4,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.97,
+        "resting_heart_rate": 67,
+        "cumulative_radiation_msv": 2.41,
+        "daily_neutron_msv": 0.21,
+        "cabin_co2_mmhg": 1.82,
+        "sleep_hours": 7.4,
+        "pvt_reaction_ms": 252
+      }
+    },
+    {
+      "mission_day": 4,
+      "earth_comm_delay_min": 0.5,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.96,
+        "resting_heart_rate": 58,
+        "cumulative_radiation_msv": 3.22,
+        "daily_neutron_msv": 0.24,
+        "cabin_co2_mmhg": 2.21,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 277
+      }
+    },
+    {
+      "mission_day": 5,
+      "earth_comm_delay_min": 0.6,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.95,
+        "resting_heart_rate": 71,
+        "cumulative_radiation_msv": 4.11,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.04,
+        "sleep_hours": 7.6,
+        "pvt_reaction_ms": 251
+      }
+    },
+    {
+      "mission_day": 6,
+      "earth_comm_delay_min": 0.7,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.94,
+        "resting_heart_rate": 66,
+        "cumulative_radiation_msv": 4.86,
+        "daily_neutron_msv": 0.23,
+        "cabin_co2_mmhg": 1.87,
+        "sleep_hours": 7.0,
+        "pvt_reaction_ms": 278
+      }
+    },
+    {
+      "mission_day": 7,
+      "earth_comm_delay_min": 0.8,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.93,
+        "resting_heart_rate": 63,
+        "cumulative_radiation_msv": 5.75,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.18,
+        "sleep_hours": 7.6,
+        "pvt_reaction_ms": 283
+      }
+    },
+    {
+      "mission_day": 8,
+      "earth_comm_delay_min": 0.9,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.92,
+        "resting_heart_rate": 66,
+        "cumulative_radiation_msv": 6.57,
+        "daily_neutron_msv": 0.24,
+        "cabin_co2_mmhg": 2.23,
+        "sleep_hours": 7.7,
+        "pvt_reaction_ms": 279
+      }
+    },
+    {
+      "mission_day": 9,
+      "earth_comm_delay_min": 1.0,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.91,
+        "resting_heart_rate": 59,
+        "cumulative_radiation_msv": 7.43,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 1.96,
+        "sleep_hours": 6.9,
+        "pvt_reaction_ms": 256
+      }
+    },
+    {
+      "mission_day": 10,
+      "earth_comm_delay_min": 1.1,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.9,
+        "resting_heart_rate": 63,
+        "cumulative_radiation_msv": 8.15,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 1.99,
+        "sleep_hours": 7.0,
+        "pvt_reaction_ms": 270
+      }
+    },
+    {
+      "mission_day": 11,
+      "earth_comm_delay_min": 1.2,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.89,
+        "resting_heart_rate": 67,
+        "cumulative_radiation_msv": 8.91,
+        "daily_neutron_msv": 0.23,
+        "cabin_co2_mmhg": 1.99,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 282
+      }
+    },
+    {
+      "mission_day": 12,
+      "earth_comm_delay_min": 1.3,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.88,
+        "resting_heart_rate": 63,
+        "cumulative_radiation_msv": 9.74,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 2.31,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 251
+      }
+    },
+    {
+      "mission_day": 13,
+      "earth_comm_delay_min": 1.4,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.87,
+        "resting_heart_rate": 69,
+        "cumulative_radiation_msv": 10.69,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 2.19,
+        "sleep_hours": 7.5,
+        "pvt_reaction_ms": 272
+      }
+    },
+    {
+      "mission_day": 14,
+      "earth_comm_delay_min": 1.5,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.86,
+        "resting_heart_rate": 61,
+        "cumulative_radiation_msv": 11.57,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 1.82,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 257
+      }
+    },
+    {
+      "mission_day": 15,
+      "earth_comm_delay_min": 1.6,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.85,
+        "resting_heart_rate": 67,
+        "cumulative_radiation_msv": 12.28,
+        "daily_neutron_msv": 0.21,
+        "cabin_co2_mmhg": 2.41,
+        "sleep_hours": 7.8,
+        "pvt_reaction_ms": 257
+      }
+    },
+    {
+      "mission_day": 16,
+      "earth_comm_delay_min": 1.7,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.84,
+        "resting_heart_rate": 61,
+        "cumulative_radiation_msv": 13.05,
+        "daily_neutron_msv": 0.23,
+        "cabin_co2_mmhg": 2.12,
+        "sleep_hours": 7.8,
+        "pvt_reaction_ms": 255
+      }
+    },
+    {
+      "mission_day": 17,
+      "earth_comm_delay_min": 1.8,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.83,
+        "resting_heart_rate": 63,
+        "cumulative_radiation_msv": 13.87,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 2.21,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 280
+      }
+    },
+    {
+      "mission_day": 18,
+      "earth_comm_delay_min": 1.9,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.82,
+        "resting_heart_rate": 58,
+        "cumulative_radiation_msv": 14.59,
+        "daily_neutron_msv": 0.21,
+        "cabin_co2_mmhg": 2.16,
+        "sleep_hours": 7.9,
+        "pvt_reaction_ms": 248
+      }
+    },
+    {
+      "mission_day": 19,
+      "earth_comm_delay_min": 2.0,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.81,
+        "resting_heart_rate": 58,
+        "cumulative_radiation_msv": 15.27,
+        "daily_neutron_msv": 0.2,
+        "cabin_co2_mmhg": 2.35,
+        "sleep_hours": 7.5,
+        "pvt_reaction_ms": 261
+      }
+    },
+    {
+      "mission_day": 20,
+      "earth_comm_delay_min": 2.1,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.8,
+        "resting_heart_rate": 70,
+        "cumulative_radiation_msv": 16.03,
+        "daily_neutron_msv": 0.23,
+        "cabin_co2_mmhg": 2.17,
+        "sleep_hours": 7.9,
+        "pvt_reaction_ms": 283
+      }
+    },
+    {
+      "mission_day": 21,
+      "earth_comm_delay_min": 2.2,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.79,
+        "resting_heart_rate": 61,
+        "cumulative_radiation_msv": 16.68,
+        "daily_neutron_msv": 0.2,
+        "cabin_co2_mmhg": 2.28,
+        "sleep_hours": 7.6,
+        "pvt_reaction_ms": 266
+      }
+    },
+    {
+      "mission_day": 22,
+      "earth_comm_delay_min": 2.3,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.78,
+        "resting_heart_rate": 71,
+        "cumulative_radiation_msv": 17.52,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 2.1,
+        "sleep_hours": 7.0,
+        "pvt_reaction_ms": 263
+      }
+    },
+    {
+      "mission_day": 23,
+      "earth_comm_delay_min": 2.4,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.77,
+        "resting_heart_rate": 70,
+        "cumulative_radiation_msv": 18.43,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.15,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 252
+      }
+    },
+    {
+      "mission_day": 24,
+      "earth_comm_delay_min": 2.5,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.76,
+        "resting_heart_rate": 60,
+        "cumulative_radiation_msv": 19.34,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.25,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 269
+      }
+    },
+    {
+      "mission_day": 25,
+      "earth_comm_delay_min": 2.6,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.75,
+        "resting_heart_rate": 58,
+        "cumulative_radiation_msv": 20.22,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 2.35,
+        "sleep_hours": 7.4,
+        "pvt_reaction_ms": 266
+      }
+    },
+    {
+      "mission_day": 26,
+      "earth_comm_delay_min": 2.7,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.74,
+        "resting_heart_rate": 69,
+        "cumulative_radiation_msv": 20.97,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 2.45,
+        "sleep_hours": 6.9,
+        "pvt_reaction_ms": 280
+      }
+    },
+    {
+      "mission_day": 27,
+      "earth_comm_delay_min": 2.8,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.73,
+        "resting_heart_rate": 59,
+        "cumulative_radiation_msv": 21.71,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 2.41,
+        "sleep_hours": 7.0,
+        "pvt_reaction_ms": 282
+      }
+    },
+    {
+      "mission_day": 28,
+      "earth_comm_delay_min": 2.9,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.72,
+        "resting_heart_rate": 59,
+        "cumulative_radiation_msv": 22.51,
+        "daily_neutron_msv": 0.24,
+        "cabin_co2_mmhg": 2.33,
+        "sleep_hours": 7.0,
+        "pvt_reaction_ms": 275
+      }
+    },
+    {
+      "mission_day": 29,
+      "earth_comm_delay_min": 3.0,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.71,
+        "resting_heart_rate": 63,
+        "cumulative_radiation_msv": 23.3,
+        "daily_neutron_msv": 0.24,
+        "cabin_co2_mmhg": 1.99,
+        "sleep_hours": 7.4,
+        "pvt_reaction_ms": 279
+      }
+    },
+    {
+      "mission_day": 30,
+      "earth_comm_delay_min": 3.1,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.7,
+        "resting_heart_rate": 62,
+        "cumulative_radiation_msv": 24.01,
+        "daily_neutron_msv": 0.21,
+        "cabin_co2_mmhg": 2.31,
+        "sleep_hours": 7.4,
+        "pvt_reaction_ms": 253
+      }
+    },
+    {
+      "mission_day": 31,
+      "earth_comm_delay_min": 3.2,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.69,
+        "resting_heart_rate": 59,
+        "cumulative_radiation_msv": 24.96,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 2.11,
+        "sleep_hours": 7.5,
+        "pvt_reaction_ms": 265
+      }
+    },
+    {
+      "mission_day": 32,
+      "earth_comm_delay_min": 3.3,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.68,
+        "resting_heart_rate": 61,
+        "cumulative_radiation_msv": 25.68,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 2.21,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 254
+      }
+    },
+    {
+      "mission_day": 33,
+      "earth_comm_delay_min": 3.4,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.67,
+        "resting_heart_rate": 70,
+        "cumulative_radiation_msv": 26.35,
+        "daily_neutron_msv": 0.2,
+        "cabin_co2_mmhg": 1.96,
+        "sleep_hours": 7.5,
+        "pvt_reaction_ms": 281
+      }
+    },
+    {
+      "mission_day": 34,
+      "earth_comm_delay_min": 3.5,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.66,
+        "resting_heart_rate": 59,
+        "cumulative_radiation_msv": 27.02,
+        "daily_neutron_msv": 0.2,
+        "cabin_co2_mmhg": 2.27,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 253
+      }
+    },
+    {
+      "mission_day": 35,
+      "earth_comm_delay_min": 3.6,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.65,
+        "resting_heart_rate": 69,
+        "cumulative_radiation_msv": 27.95,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 2.13,
+        "sleep_hours": 7.5,
+        "pvt_reaction_ms": 276
+      }
+    },
+    {
+      "mission_day": 36,
+      "earth_comm_delay_min": 3.8,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.64,
+        "resting_heart_rate": 64,
+        "cumulative_radiation_msv": 28.66,
+        "daily_neutron_msv": 0.21,
+        "cabin_co2_mmhg": 2.1,
+        "sleep_hours": 7.0,
+        "pvt_reaction_ms": 261
+      }
+    },
+    {
+      "mission_day": 37,
+      "earth_comm_delay_min": 3.9,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.63,
+        "resting_heart_rate": 63,
+        "cumulative_radiation_msv": 29.53,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 2.49,
+        "sleep_hours": 7.6,
+        "pvt_reaction_ms": 248
+      }
+    },
+    {
+      "mission_day": 38,
+      "earth_comm_delay_min": 4.0,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.62,
+        "resting_heart_rate": 64,
+        "cumulative_radiation_msv": 30.28,
+        "daily_neutron_msv": 0.23,
+        "cabin_co2_mmhg": 1.97,
+        "sleep_hours": 7.8,
+        "pvt_reaction_ms": 252
+      }
+    },
+    {
+      "mission_day": 39,
+      "earth_comm_delay_min": 4.1,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.61,
+        "resting_heart_rate": 64,
+        "cumulative_radiation_msv": 31.06,
+        "daily_neutron_msv": 0.23,
+        "cabin_co2_mmhg": 1.97,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 281
+      }
+    },
+    {
+      "mission_day": 40,
+      "earth_comm_delay_min": 4.2,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.6,
+        "resting_heart_rate": 69,
+        "cumulative_radiation_msv": 31.97,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 1.84,
+        "sleep_hours": 7.5,
+        "pvt_reaction_ms": 284
+      }
+    },
+    {
+      "mission_day": 41,
+      "earth_comm_delay_min": 4.3,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.59,
+        "resting_heart_rate": 64,
+        "cumulative_radiation_msv": 32.91,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 2.39,
+        "sleep_hours": 7.8,
+        "pvt_reaction_ms": 251
+      }
+    },
+    {
+      "mission_day": 42,
+      "earth_comm_delay_min": 4.4,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.58,
+        "resting_heart_rate": 71,
+        "cumulative_radiation_msv": 33.62,
+        "daily_neutron_msv": 0.21,
+        "cabin_co2_mmhg": 1.84,
+        "sleep_hours": 7.3,
+        "pvt_reaction_ms": 260
+      }
+    },
+    {
+      "mission_day": 43,
+      "earth_comm_delay_min": 4.5,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.57,
+        "resting_heart_rate": 71,
+        "cumulative_radiation_msv": 34.35,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 2.12,
+        "sleep_hours": 7.7,
+        "pvt_reaction_ms": 261
+      }
+    },
+    {
+      "mission_day": 44,
+      "earth_comm_delay_min": 4.6,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.56,
+        "resting_heart_rate": 62,
+        "cumulative_radiation_msv": 35.3,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 2.3,
+        "sleep_hours": 7.5,
+        "pvt_reaction_ms": 251
+      }
+    },
+    {
+      "mission_day": 45,
+      "earth_comm_delay_min": 4.7,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.55,
+        "resting_heart_rate": 58,
+        "cumulative_radiation_msv": 36.24,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 2.18,
+        "sleep_hours": 7.5,
+        "pvt_reaction_ms": 274
+      }
+    },
+    {
+      "mission_day": 46,
+      "earth_comm_delay_min": 4.8,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.54,
+        "resting_heart_rate": 71,
+        "cumulative_radiation_msv": 37.07,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 2.4,
+        "sleep_hours": 7.4,
+        "pvt_reaction_ms": 251
+      }
+    },
+    {
+      "mission_day": 47,
+      "earth_comm_delay_min": 4.9,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.53,
+        "resting_heart_rate": 61,
+        "cumulative_radiation_msv": 37.74,
+        "daily_neutron_msv": 0.2,
+        "cabin_co2_mmhg": 2.22,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 272
+      }
+    },
+    {
+      "mission_day": 48,
+      "earth_comm_delay_min": 5.0,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.52,
+        "resting_heart_rate": 66,
+        "cumulative_radiation_msv": 38.43,
+        "daily_neutron_msv": 0.21,
+        "cabin_co2_mmhg": 1.97,
+        "sleep_hours": 7.8,
+        "pvt_reaction_ms": 268
+      }
+    },
+    {
+      "mission_day": 49,
+      "earth_comm_delay_min": 5.1,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.51,
+        "resting_heart_rate": 60,
+        "cumulative_radiation_msv": 39.21,
+        "daily_neutron_msv": 0.23,
+        "cabin_co2_mmhg": 2.17,
+        "sleep_hours": 7.5,
+        "pvt_reaction_ms": 282
+      }
+    },
+    {
+      "mission_day": 50,
+      "earth_comm_delay_min": 5.2,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.5,
+        "resting_heart_rate": 62,
+        "cumulative_radiation_msv": 40.07,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 2.08,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 271
+      }
+    },
+    {
+      "mission_day": 51,
+      "earth_comm_delay_min": 5.3,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.49,
+        "resting_heart_rate": 71,
+        "cumulative_radiation_msv": 40.81,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 1.85,
+        "sleep_hours": 7.7,
+        "pvt_reaction_ms": 263
+      }
+    },
+    {
+      "mission_day": 52,
+      "earth_comm_delay_min": 5.4,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.48,
+        "resting_heart_rate": 71,
+        "cumulative_radiation_msv": 41.76,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 1.95,
+        "sleep_hours": 7.0,
+        "pvt_reaction_ms": 255
+      }
+    },
+    {
+      "mission_day": 53,
+      "earth_comm_delay_min": 5.5,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.47,
+        "resting_heart_rate": 69,
+        "cumulative_radiation_msv": 42.67,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.06,
+        "sleep_hours": 7.8,
+        "pvt_reaction_ms": 251
+      }
+    },
+    {
+      "mission_day": 54,
+      "earth_comm_delay_min": 5.6,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.46,
+        "resting_heart_rate": 58,
+        "cumulative_radiation_msv": 43.53,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 2.49,
+        "sleep_hours": 7.5,
+        "pvt_reaction_ms": 271
+      }
+    },
+    {
+      "mission_day": 55,
+      "earth_comm_delay_min": 5.7,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.45,
+        "resting_heart_rate": 59,
+        "cumulative_radiation_msv": 44.43,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.26,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 282
+      }
+    },
+    {
+      "mission_day": 56,
+      "earth_comm_delay_min": 5.8,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.44,
+        "resting_heart_rate": 66,
+        "cumulative_radiation_msv": 45.11,
+        "daily_neutron_msv": 0.21,
+        "cabin_co2_mmhg": 2.19,
+        "sleep_hours": 7.0,
+        "pvt_reaction_ms": 255
+      }
+    },
+    {
+      "mission_day": 57,
+      "earth_comm_delay_min": 5.9,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.43,
+        "resting_heart_rate": 64,
+        "cumulative_radiation_msv": 45.98,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 2.24,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 255
+      }
+    },
+    {
+      "mission_day": 58,
+      "earth_comm_delay_min": 6.0,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.42,
+        "resting_heart_rate": 61,
+        "cumulative_radiation_msv": 46.9,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 1.86,
+        "sleep_hours": 7.7,
+        "pvt_reaction_ms": 261
+      }
+    },
+    {
+      "mission_day": 59,
+      "earth_comm_delay_min": 6.1,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.41,
+        "resting_heart_rate": 68,
+        "cumulative_radiation_msv": 47.55,
+        "daily_neutron_msv": 0.2,
+        "cabin_co2_mmhg": 2.25,
+        "sleep_hours": 7.7,
+        "pvt_reaction_ms": 255
+      }
+    },
+    {
+      "mission_day": 60,
+      "earth_comm_delay_min": 6.2,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.4,
+        "resting_heart_rate": 70,
+        "cumulative_radiation_msv": 48.37,
+        "daily_neutron_msv": 0.24,
+        "cabin_co2_mmhg": 1.81,
+        "sleep_hours": 7.3,
+        "pvt_reaction_ms": 248
+      }
+    },
+    {
+      "mission_day": 61,
+      "earth_comm_delay_min": 6.3,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.39,
+        "resting_heart_rate": 60,
+        "cumulative_radiation_msv": 49.29,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 2.38,
+        "sleep_hours": 7.4,
+        "pvt_reaction_ms": 268
+      }
+    },
+    {
+      "mission_day": 62,
+      "earth_comm_delay_min": 6.4,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.38,
+        "resting_heart_rate": 70,
+        "cumulative_radiation_msv": 49.98,
+        "daily_neutron_msv": 0.21,
+        "cabin_co2_mmhg": 2.43,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 276
+      }
+    },
+    {
+      "mission_day": 63,
+      "earth_comm_delay_min": 6.5,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.37,
+        "resting_heart_rate": 68,
+        "cumulative_radiation_msv": 50.9,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 1.97,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 249
+      }
+    },
+    {
+      "mission_day": 64,
+      "earth_comm_delay_min": 6.6,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.36,
+        "resting_heart_rate": 71,
+        "cumulative_radiation_msv": 51.82,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.23,
+        "sleep_hours": 7.3,
+        "pvt_reaction_ms": 251
+      }
+    },
+    {
+      "mission_day": 65,
+      "earth_comm_delay_min": 6.7,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.35,
+        "resting_heart_rate": 58,
+        "cumulative_radiation_msv": 52.73,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.37,
+        "sleep_hours": 7.9,
+        "pvt_reaction_ms": 280
+      }
+    },
+    {
+      "mission_day": 66,
+      "earth_comm_delay_min": 6.8,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.34,
+        "resting_heart_rate": 70,
+        "cumulative_radiation_msv": 53.6,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 2.45,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 277
+      }
+    },
+    {
+      "mission_day": 67,
+      "earth_comm_delay_min": 6.9,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.33,
+        "resting_heart_rate": 70,
+        "cumulative_radiation_msv": 54.49,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.35,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 249
+      }
+    },
+    {
+      "mission_day": 68,
+      "earth_comm_delay_min": 7.0,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.32,
+        "resting_heart_rate": 62,
+        "cumulative_radiation_msv": 55.4,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.37,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 263
+      }
+    },
+    {
+      "mission_day": 69,
+      "earth_comm_delay_min": 7.1,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.31,
+        "resting_heart_rate": 62,
+        "cumulative_radiation_msv": 56.29,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 1.82,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 252
+      }
+    },
+    {
+      "mission_day": 70,
+      "earth_comm_delay_min": 7.2,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.3,
+        "resting_heart_rate": 63,
+        "cumulative_radiation_msv": 57.2,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.0,
+        "sleep_hours": 7.9,
+        "pvt_reaction_ms": 270
+      }
+    },
+    {
+      "mission_day": 71,
+      "earth_comm_delay_min": 7.3,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.29,
+        "resting_heart_rate": 71,
+        "cumulative_radiation_msv": 58.14,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 2.46,
+        "sleep_hours": 7.4,
+        "pvt_reaction_ms": 249
+      }
+    },
+    {
+      "mission_day": 72,
+      "earth_comm_delay_min": 7.5,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.28,
+        "resting_heart_rate": 64,
+        "cumulative_radiation_msv": 58.84,
+        "daily_neutron_msv": 0.21,
+        "cabin_co2_mmhg": 1.99,
+        "sleep_hours": 7.9,
+        "pvt_reaction_ms": 249
+      }
+    },
+    {
+      "mission_day": 73,
+      "earth_comm_delay_min": 7.6,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.27,
+        "resting_heart_rate": 63,
+        "cumulative_radiation_msv": 59.71,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 2.22,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 265
+      }
+    },
+    {
+      "mission_day": 74,
+      "earth_comm_delay_min": 7.7,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.26,
+        "resting_heart_rate": 70,
+        "cumulative_radiation_msv": 60.53,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 2.3,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 245
+      }
+    },
+    {
+      "mission_day": 75,
+      "earth_comm_delay_min": 7.8,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.25,
+        "resting_heart_rate": 63,
+        "cumulative_radiation_msv": 61.34,
+        "daily_neutron_msv": 0.24,
+        "cabin_co2_mmhg": 2.32,
+        "sleep_hours": 7.6,
+        "pvt_reaction_ms": 271
+      }
+    },
+    {
+      "mission_day": 76,
+      "earth_comm_delay_min": 7.9,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.24,
+        "resting_heart_rate": 69,
+        "cumulative_radiation_msv": 62.01,
+        "daily_neutron_msv": 0.2,
+        "cabin_co2_mmhg": 2.03,
+        "sleep_hours": 7.6,
+        "pvt_reaction_ms": 257
+      }
+    },
+    {
+      "mission_day": 77,
+      "earth_comm_delay_min": 8.0,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.23,
+        "resting_heart_rate": 63,
+        "cumulative_radiation_msv": 62.88,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 2.02,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 261
+      }
+    },
+    {
+      "mission_day": 78,
+      "earth_comm_delay_min": 8.1,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.22,
+        "resting_heart_rate": 67,
+        "cumulative_radiation_msv": 63.62,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 2.09,
+        "sleep_hours": 7.0,
+        "pvt_reaction_ms": 282
+      }
+    },
+    {
+      "mission_day": 79,
+      "earth_comm_delay_min": 8.2,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.21,
+        "resting_heart_rate": 58,
+        "cumulative_radiation_msv": 64.54,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 2.01,
+        "sleep_hours": 7.5,
+        "pvt_reaction_ms": 266
+      }
+    },
+    {
+      "mission_day": 80,
+      "earth_comm_delay_min": 8.3,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.2,
+        "resting_heart_rate": 64,
+        "cumulative_radiation_msv": 65.28,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 2.21,
+        "sleep_hours": 7.3,
+        "pvt_reaction_ms": 271
+      }
+    },
+    {
+      "mission_day": 81,
+      "earth_comm_delay_min": 8.4,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.19,
+        "resting_heart_rate": 69,
+        "cumulative_radiation_msv": 66.06,
+        "daily_neutron_msv": 0.23,
+        "cabin_co2_mmhg": 2.13,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 281
+      }
+    },
+    {
+      "mission_day": 82,
+      "earth_comm_delay_min": 8.5,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.18,
+        "resting_heart_rate": 62,
+        "cumulative_radiation_msv": 66.76,
+        "daily_neutron_msv": 0.21,
+        "cabin_co2_mmhg": 2.16,
+        "sleep_hours": 7.0,
+        "pvt_reaction_ms": 270
+      }
+    },
+    {
+      "mission_day": 83,
+      "earth_comm_delay_min": 8.6,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.17,
+        "resting_heart_rate": 60,
+        "cumulative_radiation_msv": 67.66,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.27,
+        "sleep_hours": 7.7,
+        "pvt_reaction_ms": 253
+      }
+    },
+    {
+      "mission_day": 84,
+      "earth_comm_delay_min": 8.7,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.16,
+        "resting_heart_rate": 59,
+        "cumulative_radiation_msv": 68.32,
+        "daily_neutron_msv": 0.2,
+        "cabin_co2_mmhg": 2.13,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 278
+      }
+    },
+    {
+      "mission_day": 85,
+      "earth_comm_delay_min": 8.8,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.12,
+        "resting_heart_rate": 86,
+        "cumulative_radiation_msv": 69.09,
+        "daily_neutron_msv": 0.23,
+        "cabin_co2_mmhg": 1.94,
+        "sleep_hours": 7.5,
+        "pvt_reaction_ms": 272
+      }
+    },
+    {
+      "mission_day": 86,
+      "earth_comm_delay_min": 8.9,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.08,
+        "resting_heart_rate": 90,
+        "cumulative_radiation_msv": 69.81,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 1.8,
+        "sleep_hours": 7.6,
+        "pvt_reaction_ms": 275
+      }
+    },
+    {
+      "mission_day": 87,
+      "earth_comm_delay_min": 9.0,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.04,
+        "resting_heart_rate": 87,
+        "cumulative_radiation_msv": 70.49,
+        "daily_neutron_msv": 0.2,
+        "cabin_co2_mmhg": 1.92,
+        "sleep_hours": 7.3,
+        "pvt_reaction_ms": 283
+      }
+    },
+    {
+      "mission_day": 88,
+      "earth_comm_delay_min": 9.1,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 99.0,
+        "resting_heart_rate": 90,
+        "cumulative_radiation_msv": 71.16,
+        "daily_neutron_msv": 0.2,
+        "cabin_co2_mmhg": 2.39,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 263
+      }
+    },
+    {
+      "mission_day": 89,
+      "earth_comm_delay_min": 9.2,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.96,
+        "resting_heart_rate": 91,
+        "cumulative_radiation_msv": 72.01,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 2.22,
+        "sleep_hours": 7.9,
+        "pvt_reaction_ms": 283
+      }
+    },
+    {
+      "mission_day": 90,
+      "earth_comm_delay_min": 9.3,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.92,
+        "resting_heart_rate": 87,
+        "cumulative_radiation_msv": 72.84,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 2.15,
+        "sleep_hours": 7.6,
+        "pvt_reaction_ms": 278
+      }
+    },
+    {
+      "mission_day": 91,
+      "earth_comm_delay_min": 9.4,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.88,
+        "resting_heart_rate": 83,
+        "cumulative_radiation_msv": 73.76,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 2.13,
+        "sleep_hours": 7.6,
+        "pvt_reaction_ms": 255
+      }
+    },
+    {
+      "mission_day": 92,
+      "earth_comm_delay_min": 9.5,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.84,
+        "resting_heart_rate": 84,
+        "cumulative_radiation_msv": 74.6,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 2.16,
+        "sleep_hours": 7.7,
+        "pvt_reaction_ms": 270
+      }
+    },
+    {
+      "mission_day": 93,
+      "earth_comm_delay_min": 9.6,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.8,
+        "resting_heart_rate": 87,
+        "cumulative_radiation_msv": 75.27,
+        "daily_neutron_msv": 0.2,
+        "cabin_co2_mmhg": 1.99,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 257
+      }
+    },
+    {
+      "mission_day": 94,
+      "earth_comm_delay_min": 9.7,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.76,
+        "resting_heart_rate": 81,
+        "cumulative_radiation_msv": 75.96,
+        "daily_neutron_msv": 0.21,
+        "cabin_co2_mmhg": 2.29,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 273
+      }
+    },
+    {
+      "mission_day": 95,
+      "earth_comm_delay_min": 9.8,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.72,
+        "resting_heart_rate": 86,
+        "cumulative_radiation_msv": 76.73,
+        "daily_neutron_msv": 0.23,
+        "cabin_co2_mmhg": 2.09,
+        "sleep_hours": 7.4,
+        "pvt_reaction_ms": 253
+      }
+    },
+    {
+      "mission_day": 96,
+      "earth_comm_delay_min": 9.9,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.68,
+        "resting_heart_rate": 90,
+        "cumulative_radiation_msv": 77.65,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 2.29,
+        "sleep_hours": 7.5,
+        "pvt_reaction_ms": 279
+      }
+    },
+    {
+      "mission_day": 97,
+      "earth_comm_delay_min": 10.0,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.64,
+        "resting_heart_rate": 91,
+        "cumulative_radiation_msv": 78.41,
+        "daily_neutron_msv": 0.23,
+        "cabin_co2_mmhg": 2.05,
+        "sleep_hours": 6.9,
+        "pvt_reaction_ms": 275
+      }
+    },
+    {
+      "mission_day": 98,
+      "earth_comm_delay_min": 10.1,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.6,
+        "resting_heart_rate": 88,
+        "cumulative_radiation_msv": 79.35,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 2.32,
+        "sleep_hours": 7.3,
+        "pvt_reaction_ms": 266
+      }
+    },
+    {
+      "mission_day": 99,
+      "earth_comm_delay_min": 10.2,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.56,
+        "resting_heart_rate": 85,
+        "cumulative_radiation_msv": 80.07,
+        "daily_neutron_msv": 0.21,
+        "cabin_co2_mmhg": 2.11,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 246
+      }
+    },
+    {
+      "mission_day": 100,
+      "earth_comm_delay_min": 10.3,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.52,
+        "resting_heart_rate": 82,
+        "cumulative_radiation_msv": 80.92,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 1.92,
+        "sleep_hours": 7.3,
+        "pvt_reaction_ms": 263
+      }
+    },
+    {
+      "mission_day": 101,
+      "earth_comm_delay_min": 10.4,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.48,
+        "resting_heart_rate": 81,
+        "cumulative_radiation_msv": 81.76,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 2.08,
+        "sleep_hours": 6.9,
+        "pvt_reaction_ms": 267
+      }
+    },
+    {
+      "mission_day": 102,
+      "earth_comm_delay_min": 10.5,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.44,
+        "resting_heart_rate": 85,
+        "cumulative_radiation_msv": 82.6,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 2.12,
+        "sleep_hours": 7.0,
+        "pvt_reaction_ms": 247
+      }
+    },
+    {
+      "mission_day": 103,
+      "earth_comm_delay_min": 10.6,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.4,
+        "resting_heart_rate": 90,
+        "cumulative_radiation_msv": 83.31,
+        "daily_neutron_msv": 0.21,
+        "cabin_co2_mmhg": 2.33,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 260
+      }
+    },
+    {
+      "mission_day": 104,
+      "earth_comm_delay_min": 10.7,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.36,
+        "resting_heart_rate": 87,
+        "cumulative_radiation_msv": 84.21,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 1.86,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 245
+      }
+    },
+    {
+      "mission_day": 105,
+      "earth_comm_delay_min": 10.8,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.32,
+        "resting_heart_rate": 88,
+        "cumulative_radiation_msv": 85.16,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 2.26,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 276
+      }
+    },
+    {
+      "mission_day": 106,
+      "earth_comm_delay_min": 10.9,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.28,
+        "resting_heart_rate": 82,
+        "cumulative_radiation_msv": 86.04,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 1.94,
+        "sleep_hours": 7.8,
+        "pvt_reaction_ms": 245
+      }
+    },
+    {
+      "mission_day": 107,
+      "earth_comm_delay_min": 11.0,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.24,
+        "resting_heart_rate": 89,
+        "cumulative_radiation_msv": 86.73,
+        "daily_neutron_msv": 0.21,
+        "cabin_co2_mmhg": 2.19,
+        "sleep_hours": 7.6,
+        "pvt_reaction_ms": 253
+      }
+    },
+    {
+      "mission_day": 108,
+      "earth_comm_delay_min": 11.2,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.2,
+        "resting_heart_rate": 82,
+        "cumulative_radiation_msv": 87.61,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 2.23,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 274
+      }
+    },
+    {
+      "mission_day": 109,
+      "earth_comm_delay_min": 11.3,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 98.16,
+        "resting_heart_rate": 84,
+        "cumulative_radiation_msv": 88.51,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 1.88,
+        "sleep_hours": 7.9,
+        "pvt_reaction_ms": 246
+      }
+    },
+    {
+      "mission_day": 110,
+      "earth_comm_delay_min": 11.4,
+      "ared_workout_completed": false,
+      "solar_particle_event": true,
+      "metrics": {
+        "bone_density_index": 98.12,
+        "resting_heart_rate": 81,
+        "cumulative_radiation_msv": 108.93,
+        "daily_neutron_msv": 6.13,
+        "cabin_co2_mmhg": 2.08,
+        "sleep_hours": 7.9,
+        "pvt_reaction_ms": 273
+      }
+    },
+    {
+      "mission_day": 111,
+      "earth_comm_delay_min": 11.5,
+      "ared_workout_completed": false,
+      "solar_particle_event": true,
+      "metrics": {
+        "bone_density_index": 98.08,
+        "resting_heart_rate": 91,
+        "cumulative_radiation_msv": 129.45,
+        "daily_neutron_msv": 6.16,
+        "cabin_co2_mmhg": 1.87,
+        "sleep_hours": 7.5,
+        "pvt_reaction_ms": 275
+      }
+    },
+    {
+      "mission_day": 112,
+      "earth_comm_delay_min": 11.6,
+      "ared_workout_completed": false,
+      "solar_particle_event": true,
+      "metrics": {
+        "bone_density_index": 98.04,
+        "resting_heart_rate": 85,
+        "cumulative_radiation_msv": 149.25,
+        "daily_neutron_msv": 5.94,
+        "cabin_co2_mmhg": 2.49,
+        "sleep_hours": 7.0,
+        "pvt_reaction_ms": 276
+      }
+    },
+    {
+      "mission_day": 113,
+      "earth_comm_delay_min": 11.7,
+      "ared_workout_completed": false,
+      "solar_particle_event": true,
+      "metrics": {
+        "bone_density_index": 98.0,
+        "resting_heart_rate": 91,
+        "cumulative_radiation_msv": 167.68,
+        "daily_neutron_msv": 5.53,
+        "cabin_co2_mmhg": 2.15,
+        "sleep_hours": 7.3,
+        "pvt_reaction_ms": 258
+      }
+    },
+    {
+      "mission_day": 114,
+      "earth_comm_delay_min": 11.8,
+      "ared_workout_completed": false,
+      "solar_particle_event": true,
+      "metrics": {
+        "bone_density_index": 97.96,
+        "resting_heart_rate": 90,
+        "cumulative_radiation_msv": 189.26,
+        "daily_neutron_msv": 6.47,
+        "cabin_co2_mmhg": 2.47,
+        "sleep_hours": 7.0,
+        "pvt_reaction_ms": 270
+      }
+    },
+    {
+      "mission_day": 115,
+      "earth_comm_delay_min": 11.9,
+      "ared_workout_completed": false,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.92,
+        "resting_heart_rate": 84,
+        "cumulative_radiation_msv": 190.12,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 2.31,
+        "sleep_hours": 7.3,
+        "pvt_reaction_ms": 283
+      }
+    },
+    {
+      "mission_day": 116,
+      "earth_comm_delay_min": 12.0,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.91,
+        "resting_heart_rate": 68,
+        "cumulative_radiation_msv": 191.01,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.14,
+        "sleep_hours": 7.4,
+        "pvt_reaction_ms": 262
+      }
+    },
+    {
+      "mission_day": 117,
+      "earth_comm_delay_min": 12.1,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.9,
+        "resting_heart_rate": 70,
+        "cumulative_radiation_msv": 191.74,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 2.38,
+        "sleep_hours": 7.8,
+        "pvt_reaction_ms": 248
+      }
+    },
+    {
+      "mission_day": 118,
+      "earth_comm_delay_min": 12.2,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.89,
+        "resting_heart_rate": 58,
+        "cumulative_radiation_msv": 192.46,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 2.23,
+        "sleep_hours": 7.4,
+        "pvt_reaction_ms": 260
+      }
+    },
+    {
+      "mission_day": 119,
+      "earth_comm_delay_min": 12.3,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.88,
+        "resting_heart_rate": 62,
+        "cumulative_radiation_msv": 193.37,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 1.95,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 276
+      }
+    },
+    {
+      "mission_day": 120,
+      "earth_comm_delay_min": 12.4,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.87,
+        "resting_heart_rate": 71,
+        "cumulative_radiation_msv": 194.28,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 1.99,
+        "sleep_hours": 7.6,
+        "pvt_reaction_ms": 245
+      }
+    },
+    {
+      "mission_day": 121,
+      "earth_comm_delay_min": 12.5,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.86,
+        "resting_heart_rate": 67,
+        "cumulative_radiation_msv": 194.96,
+        "daily_neutron_msv": 0.2,
+        "cabin_co2_mmhg": 2.14,
+        "sleep_hours": 7.6,
+        "pvt_reaction_ms": 275
+      }
+    },
+    {
+      "mission_day": 122,
+      "earth_comm_delay_min": 12.6,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.85,
+        "resting_heart_rate": 61,
+        "cumulative_radiation_msv": 195.8,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 2.36,
+        "sleep_hours": 7.4,
+        "pvt_reaction_ms": 248
+      }
+    },
+    {
+      "mission_day": 123,
+      "earth_comm_delay_min": 12.7,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.84,
+        "resting_heart_rate": 65,
+        "cumulative_radiation_msv": 196.66,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 2.21,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 263
+      }
+    },
+    {
+      "mission_day": 124,
+      "earth_comm_delay_min": 12.8,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.83,
+        "resting_heart_rate": 61,
+        "cumulative_radiation_msv": 197.44,
+        "daily_neutron_msv": 0.23,
+        "cabin_co2_mmhg": 2.03,
+        "sleep_hours": 7.6,
+        "pvt_reaction_ms": 273
+      }
+    },
+    {
+      "mission_day": 125,
+      "earth_comm_delay_min": 12.9,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.82,
+        "resting_heart_rate": 65,
+        "cumulative_radiation_msv": 198.17,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 1.93,
+        "sleep_hours": 7.0,
+        "pvt_reaction_ms": 249
+      }
+    },
+    {
+      "mission_day": 126,
+      "earth_comm_delay_min": 13.0,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.81,
+        "resting_heart_rate": 68,
+        "cumulative_radiation_msv": 199.05,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 1.95,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 264
+      }
+    },
+    {
+      "mission_day": 127,
+      "earth_comm_delay_min": 13.1,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.8,
+        "resting_heart_rate": 60,
+        "cumulative_radiation_msv": 199.99,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 2.0,
+        "sleep_hours": 7.4,
+        "pvt_reaction_ms": 249
+      }
+    },
+    {
+      "mission_day": 128,
+      "earth_comm_delay_min": 13.2,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.79,
+        "resting_heart_rate": 61,
+        "cumulative_radiation_msv": 200.71,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 1.81,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 266
+      }
+    },
+    {
+      "mission_day": 129,
+      "earth_comm_delay_min": 13.3,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.78,
+        "resting_heart_rate": 70,
+        "cumulative_radiation_msv": 201.65,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 2.29,
+        "sleep_hours": 7.5,
+        "pvt_reaction_ms": 250
+      }
+    },
+    {
+      "mission_day": 130,
+      "earth_comm_delay_min": 13.4,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.77,
+        "resting_heart_rate": 64,
+        "cumulative_radiation_msv": 202.45,
+        "daily_neutron_msv": 0.24,
+        "cabin_co2_mmhg": 2.2,
+        "sleep_hours": 7.8,
+        "pvt_reaction_ms": 263
+      }
+    },
+    {
+      "mission_day": 131,
+      "earth_comm_delay_min": 13.5,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.76,
+        "resting_heart_rate": 69,
+        "cumulative_radiation_msv": 203.16,
+        "daily_neutron_msv": 0.21,
+        "cabin_co2_mmhg": 2.46,
+        "sleep_hours": 7.0,
+        "pvt_reaction_ms": 264
+      }
+    },
+    {
+      "mission_day": 132,
+      "earth_comm_delay_min": 13.6,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.75,
+        "resting_heart_rate": 60,
+        "cumulative_radiation_msv": 203.93,
+        "daily_neutron_msv": 0.23,
+        "cabin_co2_mmhg": 2.24,
+        "sleep_hours": 7.0,
+        "pvt_reaction_ms": 247
+      }
+    },
+    {
+      "mission_day": 133,
+      "earth_comm_delay_min": 13.7,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.74,
+        "resting_heart_rate": 68,
+        "cumulative_radiation_msv": 204.75,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 2.5,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 249
+      }
+    },
+    {
+      "mission_day": 134,
+      "earth_comm_delay_min": 13.8,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.73,
+        "resting_heart_rate": 64,
+        "cumulative_radiation_msv": 205.58,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 1.96,
+        "sleep_hours": 7.7,
+        "pvt_reaction_ms": 265
+      }
+    },
+    {
+      "mission_day": 135,
+      "earth_comm_delay_min": 13.9,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.72,
+        "resting_heart_rate": 88,
+        "cumulative_radiation_msv": 206.36,
+        "daily_neutron_msv": 0.23,
+        "cabin_co2_mmhg": 4.29,
+        "sleep_hours": 5.7,
+        "pvt_reaction_ms": 374
+      }
+    },
+    {
+      "mission_day": 136,
+      "earth_comm_delay_min": 14.0,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.71,
+        "resting_heart_rate": 83,
+        "cumulative_radiation_msv": 207.19,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 4.26,
+        "sleep_hours": 5.5,
+        "pvt_reaction_ms": 366
+      }
+    },
+    {
+      "mission_day": 137,
+      "earth_comm_delay_min": 14.1,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.7,
+        "resting_heart_rate": 81,
+        "cumulative_radiation_msv": 208.04,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 3.72,
+        "sleep_hours": 5.0,
+        "pvt_reaction_ms": 356
+      }
+    },
+    {
+      "mission_day": 138,
+      "earth_comm_delay_min": 14.2,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.69,
+        "resting_heart_rate": 89,
+        "cumulative_radiation_msv": 208.83,
+        "daily_neutron_msv": 0.24,
+        "cabin_co2_mmhg": 3.8,
+        "sleep_hours": 5.4,
+        "pvt_reaction_ms": 368
+      }
+    },
+    {
+      "mission_day": 139,
+      "earth_comm_delay_min": 14.3,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.68,
+        "resting_heart_rate": 90,
+        "cumulative_radiation_msv": 209.69,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 4.08,
+        "sleep_hours": 5.3,
+        "pvt_reaction_ms": 423
+      }
+    },
+    {
+      "mission_day": 140,
+      "earth_comm_delay_min": 14.4,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.67,
+        "resting_heart_rate": 87,
+        "cumulative_radiation_msv": 210.53,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 4.25,
+        "sleep_hours": 5.5,
+        "pvt_reaction_ms": 384
+      }
+    },
+    {
+      "mission_day": 141,
+      "earth_comm_delay_min": 14.5,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.66,
+        "resting_heart_rate": 82,
+        "cumulative_radiation_msv": 211.37,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 4.18,
+        "sleep_hours": 5.7,
+        "pvt_reaction_ms": 355
+      }
+    },
+    {
+      "mission_day": 142,
+      "earth_comm_delay_min": 14.6,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.65,
+        "resting_heart_rate": 82,
+        "cumulative_radiation_msv": 212.11,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 4.0,
+        "sleep_hours": 5.5,
+        "pvt_reaction_ms": 373
+      }
+    },
+    {
+      "mission_day": 143,
+      "earth_comm_delay_min": 14.7,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.64,
+        "resting_heart_rate": 86,
+        "cumulative_radiation_msv": 212.97,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 4.26,
+        "sleep_hours": 5.5,
+        "pvt_reaction_ms": 390
+      }
+    },
+    {
+      "mission_day": 144,
+      "earth_comm_delay_min": 14.9,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.63,
+        "resting_heart_rate": 84,
+        "cumulative_radiation_msv": 213.64,
+        "daily_neutron_msv": 0.2,
+        "cabin_co2_mmhg": 3.9,
+        "sleep_hours": 4.8,
+        "pvt_reaction_ms": 375
+      }
+    },
+    {
+      "mission_day": 145,
+      "earth_comm_delay_min": 15.0,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.62,
+        "resting_heart_rate": 92,
+        "cumulative_radiation_msv": 214.32,
+        "daily_neutron_msv": 0.2,
+        "cabin_co2_mmhg": 4.19,
+        "sleep_hours": 5.8,
+        "pvt_reaction_ms": 396
+      }
+    },
+    {
+      "mission_day": 146,
+      "earth_comm_delay_min": 15.1,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.61,
+        "resting_heart_rate": 90,
+        "cumulative_radiation_msv": 215.27,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 3.79,
+        "sleep_hours": 5.5,
+        "pvt_reaction_ms": 353
+      }
+    },
+    {
+      "mission_day": 147,
+      "earth_comm_delay_min": 15.2,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.6,
+        "resting_heart_rate": 88,
+        "cumulative_radiation_msv": 216.06,
+        "daily_neutron_msv": 0.24,
+        "cabin_co2_mmhg": 4.24,
+        "sleep_hours": 5.5,
+        "pvt_reaction_ms": 364
+      }
+    },
+    {
+      "mission_day": 148,
+      "earth_comm_delay_min": 15.3,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.59,
+        "resting_heart_rate": 84,
+        "cumulative_radiation_msv": 216.9,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 3.66,
+        "sleep_hours": 5.3,
+        "pvt_reaction_ms": 377
+      }
+    },
+    {
+      "mission_day": 149,
+      "earth_comm_delay_min": 15.4,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.58,
+        "resting_heart_rate": 84,
+        "cumulative_radiation_msv": 217.75,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 3.83,
+        "sleep_hours": 5.7,
+        "pvt_reaction_ms": 405
+      }
+    },
+    {
+      "mission_day": 150,
+      "earth_comm_delay_min": 15.5,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.57,
+        "resting_heart_rate": 84,
+        "cumulative_radiation_msv": 218.68,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 3.99,
+        "sleep_hours": 5.6,
+        "pvt_reaction_ms": 386
+      }
+    },
+    {
+      "mission_day": 151,
+      "earth_comm_delay_min": 15.6,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.56,
+        "resting_heart_rate": 92,
+        "cumulative_radiation_msv": 219.43,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 3.88,
+        "sleep_hours": 5.8,
+        "pvt_reaction_ms": 391
+      }
+    },
+    {
+      "mission_day": 152,
+      "earth_comm_delay_min": 15.7,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.55,
+        "resting_heart_rate": 85,
+        "cumulative_radiation_msv": 220.28,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 3.89,
+        "sleep_hours": 5.3,
+        "pvt_reaction_ms": 365
+      }
+    },
+    {
+      "mission_day": 153,
+      "earth_comm_delay_min": 15.8,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.54,
+        "resting_heart_rate": 87,
+        "cumulative_radiation_msv": 221.16,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 4.13,
+        "sleep_hours": 5.4,
+        "pvt_reaction_ms": 366
+      }
+    },
+    {
+      "mission_day": 154,
+      "earth_comm_delay_min": 15.9,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.53,
+        "resting_heart_rate": 92,
+        "cumulative_radiation_msv": 222.09,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 4.09,
+        "sleep_hours": 5.2,
+        "pvt_reaction_ms": 359
+      }
+    },
+    {
+      "mission_day": 155,
+      "earth_comm_delay_min": 16.0,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.52,
+        "resting_heart_rate": 87,
+        "cumulative_radiation_msv": 222.92,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 3.71,
+        "sleep_hours": 5.0,
+        "pvt_reaction_ms": 394
+      }
+    },
+    {
+      "mission_day": 156,
+      "earth_comm_delay_min": 16.1,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.51,
+        "resting_heart_rate": 59,
+        "cumulative_radiation_msv": 223.6,
+        "daily_neutron_msv": 0.2,
+        "cabin_co2_mmhg": 2.44,
+        "sleep_hours": 7.9,
+        "pvt_reaction_ms": 263
+      }
+    },
+    {
+      "mission_day": 157,
+      "earth_comm_delay_min": 16.2,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.5,
+        "resting_heart_rate": 61,
+        "cumulative_radiation_msv": 224.5,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.3,
+        "sleep_hours": 7.4,
+        "pvt_reaction_ms": 265
+      }
+    },
+    {
+      "mission_day": 158,
+      "earth_comm_delay_min": 16.3,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.49,
+        "resting_heart_rate": 63,
+        "cumulative_radiation_msv": 225.4,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 1.97,
+        "sleep_hours": 7.9,
+        "pvt_reaction_ms": 267
+      }
+    },
+    {
+      "mission_day": 159,
+      "earth_comm_delay_min": 16.4,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.48,
+        "resting_heart_rate": 61,
+        "cumulative_radiation_msv": 226.33,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 2.42,
+        "sleep_hours": 7.4,
+        "pvt_reaction_ms": 279
+      }
+    },
+    {
+      "mission_day": 160,
+      "earth_comm_delay_min": 16.5,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.47,
+        "resting_heart_rate": 69,
+        "cumulative_radiation_msv": 227.22,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.45,
+        "sleep_hours": 7.3,
+        "pvt_reaction_ms": 265
+      }
+    },
+    {
+      "mission_day": 161,
+      "earth_comm_delay_min": 16.6,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.46,
+        "resting_heart_rate": 64,
+        "cumulative_radiation_msv": 227.95,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 2.21,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 284
+      }
+    },
+    {
+      "mission_day": 162,
+      "earth_comm_delay_min": 16.7,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.45,
+        "resting_heart_rate": 65,
+        "cumulative_radiation_msv": 228.64,
+        "daily_neutron_msv": 0.21,
+        "cabin_co2_mmhg": 2.04,
+        "sleep_hours": 7.4,
+        "pvt_reaction_ms": 267
+      }
+    },
+    {
+      "mission_day": 163,
+      "earth_comm_delay_min": 16.8,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.44,
+        "resting_heart_rate": 66,
+        "cumulative_radiation_msv": 229.43,
+        "daily_neutron_msv": 0.24,
+        "cabin_co2_mmhg": 1.93,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 272
+      }
+    },
+    {
+      "mission_day": 164,
+      "earth_comm_delay_min": 16.9,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.43,
+        "resting_heart_rate": 67,
+        "cumulative_radiation_msv": 230.15,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 1.83,
+        "sleep_hours": 7.7,
+        "pvt_reaction_ms": 274
+      }
+    },
+    {
+      "mission_day": 165,
+      "earth_comm_delay_min": 17.0,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.42,
+        "resting_heart_rate": 71,
+        "cumulative_radiation_msv": 231.04,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.26,
+        "sleep_hours": 7.3,
+        "pvt_reaction_ms": 277
+      }
+    },
+    {
+      "mission_day": 166,
+      "earth_comm_delay_min": 17.1,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.41,
+        "resting_heart_rate": 70,
+        "cumulative_radiation_msv": 231.84,
+        "daily_neutron_msv": 0.24,
+        "cabin_co2_mmhg": 2.15,
+        "sleep_hours": 6.9,
+        "pvt_reaction_ms": 268
+      }
+    },
+    {
+      "mission_day": 167,
+      "earth_comm_delay_min": 17.2,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.4,
+        "resting_heart_rate": 68,
+        "cumulative_radiation_msv": 232.75,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.17,
+        "sleep_hours": 7.3,
+        "pvt_reaction_ms": 263
+      }
+    },
+    {
+      "mission_day": 168,
+      "earth_comm_delay_min": 17.3,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.39,
+        "resting_heart_rate": 71,
+        "cumulative_radiation_msv": 233.52,
+        "daily_neutron_msv": 0.23,
+        "cabin_co2_mmhg": 1.91,
+        "sleep_hours": 7.6,
+        "pvt_reaction_ms": 263
+      }
+    },
+    {
+      "mission_day": 169,
+      "earth_comm_delay_min": 17.4,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.38,
+        "resting_heart_rate": 69,
+        "cumulative_radiation_msv": 234.27,
+        "daily_neutron_msv": 0.23,
+        "cabin_co2_mmhg": 2.25,
+        "sleep_hours": 7.6,
+        "pvt_reaction_ms": 279
+      }
+    },
+    {
+      "mission_day": 170,
+      "earth_comm_delay_min": 17.5,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.37,
+        "resting_heart_rate": 68,
+        "cumulative_radiation_msv": 235.18,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.02,
+        "sleep_hours": 7.3,
+        "pvt_reaction_ms": 273
+      }
+    },
+    {
+      "mission_day": 171,
+      "earth_comm_delay_min": 17.6,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.36,
+        "resting_heart_rate": 70,
+        "cumulative_radiation_msv": 236.09,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 1.85,
+        "sleep_hours": 6.9,
+        "pvt_reaction_ms": 270
+      }
+    },
+    {
+      "mission_day": 172,
+      "earth_comm_delay_min": 17.7,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.35,
+        "resting_heart_rate": 66,
+        "cumulative_radiation_msv": 237.04,
+        "daily_neutron_msv": 0.28,
+        "cabin_co2_mmhg": 2.1,
+        "sleep_hours": 7.6,
+        "pvt_reaction_ms": 248
+      }
+    },
+    {
+      "mission_day": 173,
+      "earth_comm_delay_min": 17.8,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.34,
+        "resting_heart_rate": 58,
+        "cumulative_radiation_msv": 237.95,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.29,
+        "sleep_hours": 7.3,
+        "pvt_reaction_ms": 281
+      }
+    },
+    {
+      "mission_day": 174,
+      "earth_comm_delay_min": 17.9,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.33,
+        "resting_heart_rate": 65,
+        "cumulative_radiation_msv": 238.84,
+        "daily_neutron_msv": 0.27,
+        "cabin_co2_mmhg": 2.06,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 250
+      }
+    },
+    {
+      "mission_day": 175,
+      "earth_comm_delay_min": 18.0,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.32,
+        "resting_heart_rate": 70,
+        "cumulative_radiation_msv": 239.66,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 1.92,
+        "sleep_hours": 7.7,
+        "pvt_reaction_ms": 248
+      }
+    },
+    {
+      "mission_day": 176,
+      "earth_comm_delay_min": 18.1,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.31,
+        "resting_heart_rate": 64,
+        "cumulative_radiation_msv": 240.5,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 2.44,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 250
+      }
+    },
+    {
+      "mission_day": 177,
+      "earth_comm_delay_min": 18.2,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.3,
+        "resting_heart_rate": 70,
+        "cumulative_radiation_msv": 241.23,
+        "daily_neutron_msv": 0.22,
+        "cabin_co2_mmhg": 1.81,
+        "sleep_hours": 7.2,
+        "pvt_reaction_ms": 277
+      }
+    },
+    {
+      "mission_day": 178,
+      "earth_comm_delay_min": 18.3,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.29,
+        "resting_heart_rate": 66,
+        "cumulative_radiation_msv": 242.08,
+        "daily_neutron_msv": 0.26,
+        "cabin_co2_mmhg": 2.11,
+        "sleep_hours": 7.1,
+        "pvt_reaction_ms": 258
+      }
+    },
+    {
+      "mission_day": 179,
+      "earth_comm_delay_min": 18.4,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.28,
+        "resting_heart_rate": 60,
+        "cumulative_radiation_msv": 242.92,
+        "daily_neutron_msv": 0.25,
+        "cabin_co2_mmhg": 1.98,
+        "sleep_hours": 7.3,
+        "pvt_reaction_ms": 278
+      }
+    },
+    {
+      "mission_day": 180,
+      "earth_comm_delay_min": 18.6,
+      "ared_workout_completed": true,
+      "solar_particle_event": false,
+      "metrics": {
+        "bone_density_index": 97.27,
+        "resting_heart_rate": 66,
+        "cumulative_radiation_msv": 243.69,
+        "daily_neutron_msv": 0.23,
+        "cabin_co2_mmhg": 1.97,
+        "sleep_hours": 7.4,
+        "pvt_reaction_ms": 267
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom subtle scrollbars for aerospace console panels */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(148, 163, 184, 0.35);
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(148, 163, 184, 0.55);
+  }
+}
+
+/* Circadian theme smooth transition helper */
+.circadian-transition {
+  transition-property: background-color, border-color, color, fill, stroke, box-shadow;
+  transition-duration: 700ms;
+  transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Custom range slider for 180-day mission timeline */
+input[type='range'].mission-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+input[type='range'].mission-slider::-webkit-slider-runnable-track {
+  height: 10px;
+  border-radius: 9999px;
+}
+
+input[type='range'].mission-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 9999px;
+  background: #38bdf8;
+  border: 3px solid #ffffff;
+  box-shadow: 0 2px 10px rgba(2, 132, 199, 0.55);
+  margin-top: -6px;
+  transition: transform 150ms ease;
+}
+
+input[type='range'].mission-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}

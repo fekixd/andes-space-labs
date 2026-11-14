@@ -1,0 +1,1167 @@
+{
+  "metadata": {
+    "team": "Andes Space Labs",
+    "challenge": "Create Health Monitoring Software for Astronauts on Space Missions",
+    "generated_at_utc": "2026-11-14T16:21:25.002337+00:00",
+    "total_verified_records": 52,
+    "official_sources": [
+      "https://www.nasa.gov/hrp/hazards/",
+      "https://www.nasa.gov/hrp/risks/",
+      "https://www.nasa.gov/hrp/ongoing-hrp-research/",
+      "https://www.asc-csa.gc.ca/eng/astronauts/space-medicine/radiation.asp",
+      "https://www.asc-csa.gc.ca/eng/iss/science/why-do-we-conduct-science-experiments-in-space.asp"
+    ]
+  },
+  "clinical_thresholds": {
+    "bone_density_index": {
+      "unit": "%",
+      "optimal_min": 97.0,
+      "warning_min": 93.0,
+      "hazard": "altered_gravity"
+    },
+    "resting_heart_rate": {
+      "unit": "bpm",
+      "optimal_max": 78,
+      "warning_max": 88,
+      "hazard": "altered_gravity"
+    },
+    "cumulative_radiation_msv": {
+      "unit": "mSv",
+      "warning_max": 120.0,
+      "critical_max": 250.0,
+      "hazard": "radiation"
+    },
+    "cabin_co2_mmhg": {
+      "unit": "mmHg",
+      "optimal_max": 2.5,
+      "warning_max": 3.5,
+      "hazard": "hostile_environment"
+    },
+    "sleep_hours": {
+      "unit": "h",
+      "optimal_min": 7.0,
+      "warning_min": 6.0,
+      "hazard": "isolation_behavioral"
+    },
+    "pvt_reaction_ms": {
+      "unit": "ms",
+      "optimal_max": 285,
+      "warning_max": 345,
+      "hazard": "isolation_behavioral"
+    }
+  },
+  "knowledge_base": [
+    {
+      "id": "HRP-HAZ-001",
+      "title": "About the Five Hazards",
+      "source_url": "https://www.nasa.gov/hrp/",
+      "hazard_categories": [
+        "radiation",
+        "altered_gravity",
+        "isolation_behavioral",
+        "hostile_environment",
+        "distance"
+      ],
+      "summary": [
+        "Astronauts encounter five hazards as they journey through space. Recognizing these hazards allows NASA to seek ways that overcome the challenges of sending humans to the space station, the Moon, Mars, and beyond.",
+        "A human journey to Mars, at first glance, offers an inexhaustible amount of complexities. To bring such a mission to the Red Planet from fiction to fact, NASA’s Human Research Program has pinpointed five hazards that astronauts will encounter on their journeys. These include space radiation , isolation and confinement , distance from Earth , gravity (and the lack of it), and closed or hostile environments. Scroll down to learn details involving each hazard.",
+        "Pooling the challenges of human spaceflight into categories allows for an organized effort to overcome the obstacles that lay before such a mission. However, these hazards do not stand alone. They can feed off one another and exacerbate effects on the human body, which are being studied using ground-based analogs , laboratories, and the International Space Station . These locations all serve as test beds to evaluate human performance, as well as the effectiveness of strategies that could keep astronauts safe and healthy in space.",
+        "Through meticulous research, NASA is gaining valuable insight into how the human body and mind might respond during extended forays into space. The resulting data, technology, and methods serve as a knowledge bank from which scientists can extrapolate to multi-year interplanetary missions."
+      ],
+      "countermeasures": [
+        "Recognizing these hazards allows NASA to seek ways that overcome the challenges of sending humans to the space station, the Moon, Mars, and beyond.",
+        "To bring such a mission to the Red Planet from fiction to fact, NASA’s Human Research Program has pinpointed five hazards that astronauts will encounter on their journeys.",
+        "Pooling the challenges of human spaceflight into categories allows for an organized effort to overcome the obstacles that lay before such a mission.",
+        "These locations all serve as test beds to evaluate human performance, as well as the effectiveness of strategies that could keep astronauts safe and healthy in space."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-HAZ-002",
+      "title": "Space Radiation",
+      "source_url": "https://www.nasa.gov/hrp/hazard-space-radiation/",
+      "hazard_categories": [
+        "radiation",
+        "distance"
+      ],
+      "summary": [
+        "Invisible to the human eye, space radiation is not only stealthy but considered one of the most hazardous aspects of spaceflight.",
+        "This hazard of a human mission to Mars is the most difficult to visualize because, well, space radiation is invisible to the human eye. Radiation is not only stealthy, but considered one of the most hazardous aspects of spaceflight.",
+        "Space radiation is invisible to the human eye. It’s not only stealthy, but considered one of the most hazardous aspects of human spaceflight.",
+        "Outside Earth’s protective magnetic field and atmosphere, the ionizing radiation in space will pose a serious risk to astronauts as they travel to Mars. High-energy galactic cosmic rays, which are remnants from supernovas, and solar storms like solar particle events and coronal mass ejections can harm the body and spacecraft. When astronauts travel in space, they can’t see or even feel radiation. However, NASA scientists are studying the effects radiation plays on the human body and developing ways to monitor and protect against this silent hazard."
+      ],
+      "countermeasures": [
+        "Outside Earth’s protective magnetic field and atmosphere, the ionizing radiation in space will pose a serious risk to astronauts as they travel to Mars.",
+        "However, NASA scientists are studying the effects radiation plays on the human body and developing ways to monitor and protect against this silent hazard.",
+        "To learn what can happen above low-Earth orbit, NASA studies how radiation affects biological samples using a ground-based research laboratory.",
+        "NASA is developing technologies and strategies to ensure safe and successful journeys to the Mars."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-HAZ-003",
+      "title": "Isolation and Confinement",
+      "source_url": "https://www.nasa.gov/hrp/hazard-isolation-and-confinement/",
+      "hazard_categories": [
+        "isolation_behavioral"
+      ],
+      "summary": [
+        "Behavioral responses occur among groups of people far from Earth who are isolated and confined in a small space over a long period of time.",
+        "Behavioral responses occur among groups of people isolated and confined in a small space over a long period of time. Crews must be carefully chosen, trained, and supported to ensure they can work effectively as a team for months or years in space.",
+        "Behavioral responses occur among groups of people far from Earth who are isolated and confined in a small space over a long period of time. Crews will be carefully chosen, trained, and supported to ensure they can work effectively as a team for months or years in space.",
+        "On Earth, we have the luxury of picking up our cell phones and instantly being connected with nearly everything and everyone around us. On a trip to Mars, astronauts will be more isolated and confined than we can imagine. Sleep loss, circadian desynchronization, and work overload compound this issue and may lead to decreased performance, adverse health outcomes, and compromised mission objectives."
+      ],
+      "countermeasures": [
+        "To address this hazard, experts are developing methods for monitoring behavioral health and adapting/refining various tools and technologies for use in the spaceflight environment to detect and treat early risk factors.",
+        "Research is also being conducted in workload and performance, light therapy for circadian alignment, phase shifting and alertness.",
+        "Researchers seek to learn whether developing a space-faring green thumb can also help astronauts ease their sense of confinement and isolation.",
+        "A NASA scientist discusses isolation and confinement in space, including how researchers study this hazard and steps the agency takes to safeguard crews' mental health."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-HAZ-004",
+      "title": "Distance from Earth",
+      "source_url": "https://www.nasa.gov/hrp/hazard-distance-from-earth/",
+      "hazard_categories": [
+        "distance"
+      ],
+      "summary": [
+        "Instructions, new supplies, medical care, and more become increasingly challenging to receive from Earth as astronauts venture deeper into space.",
+        "Mars is, on average, 140 million miles from Earth. Rather than a three-day lunar trip, astronauts would be leaving our planet for roughly three years. Planning and self-sufficiency will be key to successful deep space missions.",
+        "Mars is, on average, 140 million miles from Earth. Rather than a three-day lunar trip, astronauts bound for Mars would be leaving our planet for roughly three years.",
+        "Because resupply options will be low, food systems for a mission to Mars will require minimal resources and minimal waste, all while being safe, nutritious, and tasty."
+      ],
+      "countermeasures": [
+        "Planning and self-sufficiency will be key to successful deep space missions.",
+        "Given this distance, planning and self-sufficiency will be essential to successful missions to Mars."
+      ],
+      "metrics_cited": [
+        "20 minutes"
+      ]
+    },
+    {
+      "id": "HRP-HAZ-005",
+      "title": "Gravity Fields",
+      "source_url": "https://www.nasa.gov/hrp/hazard-gravity-fields/",
+      "hazard_categories": [
+        "altered_gravity",
+        "distance"
+      ],
+      "summary": [
+        "Astronauts' entire bodies – muscles, bones, inner ear, and organs – must adjust to the new gravities encountered on the space station or their spacecraft, as well as on the Moon, Mars, and Earth once they return home.",
+        "On Mars, astronauts would need to live and work in three-eighths of Earth’s gravitational pull for up to two years. Throughout this time, their bodies – muscles, bones, inner ear, and organs – will be adjusting to new gravitational loads.",
+        "Floating weightlessly within a spacecraft can lead to dizziness, bone and muscle loss, vision issues, and more. Astronauts may also need time to adjust to new gravity fields after landing on the Moon or Mars before they conduct mission-critical tasks. Developing strategies that enable crew members to adapt quickly to different gravitational fields will be key to mission success.",
+        "Astronauts will encounter three different gravity fields on a Mars mission. On the six-month trek between the planets, crews will be weightless. While living and working on Mars, crews will be in approximately one-third of Earth’s gravity. Finally, upon returning home, crews will have to readapt to Earth’s gravity."
+      ],
+      "countermeasures": [
+        "Developing strategies that enable crew members to adapt quickly to different gravitational fields will be key to mission success.",
+        "If preventive measures are not implemented, crews may experience an increased risk of developing kidney stones due to dehydration and increased excretion of calcium from their bones."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-HAZ-006",
+      "title": "Hostile/Closed Environments",
+      "source_url": "https://www.nasa.gov/hrp/hazard-hostile-closed-environments/",
+      "hazard_categories": [
+        "hostile_environment"
+      ],
+      "summary": [
+        "Maintaining a safe ecosystem inside a spacecraft presents unique challenges, from ensuring optimal temperatures, pressures, and lighting, to reducing noise, monitoring microbial communities, and tracking immune responses.",
+        "A spacecraft is not only a home, it’s also a machine. The ecosystem inside a vehicle plays a big role in everyday astronaut life. Important habitability factors include temperature, pressure, lighting, noise, the presence of microbes, and more.",
+        "Maintaining a safe ecosystem inside a vehicle presents unique challenges, from ensuring optimal temperatures, pressures, and lighting, to reducing noise, monitoring microbial communities, and tracking immune responses.",
+        "The ecosystem inside a spacecraft plays a big role in the daily life of an astronaut in space."
+      ],
+      "countermeasures": [
+        "Maintaining a safe ecosystem inside a spacecraft presents unique challenges, from ensuring optimal temperatures, pressures, and lighting, to reducing noise, monitoring microbial communities, and tracking immune responses.",
+        "The ecosystem inside a vehicle plays a big role in everyday astronaut life.",
+        "Important habitability factors include temperature, pressure, lighting, noise, the presence of microbes, and more.",
+        "Maintaining a safe ecosystem inside a vehicle presents unique challenges, from ensuring optimal temperatures, pressures, and lighting, to reducing noise, monitoring microbial communities, and tracking immune responses."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RISK-001",
+      "title": "Risk of Altered Immune System Responses",
+      "source_url": "https://www.nasa.gov/reference/risk-of-altered-immune-system-responses/",
+      "hazard_categories": [
+        "radiation",
+        "altered_gravity",
+        "isolation_behavioral",
+        "hostile_environment"
+      ],
+      "summary": [
+        "The stresses of spaceflight can awaken inactive viruses inside the bodies of astronauts, leading to rashes and other symptoms. Ongoing work seeks to further understand changes in the immune system to better protect astronaut health.",
+        "Radiation, microgravity, poor sleep and other spaceflight stressors can alter the immune system of astronauts. Such space stressors may also trigger allergic reactions or awaken dormant viruses in astronauts’ bodies, like those that cause cold sores and shingles . Studies on Earth previously indicated that shifts in immunity may lead to an increased incidence of infections and that elevated immunity may lead to allergies, so researchers hope to use Earth- and space-based research to better understand such irregularities as they prepare for longer-duration missions.",
+        "To better understand what may trigger reactivation of latent viruses, one area of research involves monitoring blood, saliva, and urine samples. Although astronauts have previously provided biological samples before and after their time in space, to better track changes to the immune system and other bodily systems, a recent focus is providing researchers with inflight biological samples returned to Earth to track immune system changes during spaceflight.",
+        "Some astronauts aboard the International Space Station have reported cold sores, rashes, atypical allergies, and infections that can be attributed to immune system alterations."
+      ],
+      "countermeasures": [
+        "Ongoing work seeks to further understand changes in the immune system to better protect astronaut health.",
+        "Studies on Earth previously indicated that shifts in immunity may lead to an increased incidence of infections and that elevated immunity may lead to allergies, so researchers hope to use Earth- and space-based research to better understand such irregularities as they prepare for longer-duration missions.",
+        "To better understand what may trigger reactivation of latent viruses, one area of research involves monitoring blood, saliva, and urine samples.",
+        "Although astronauts have previously provided biological samples before and after their time in space, to better track changes to the immune system and other bodily systems, a recent focus is providing researchers with inflight biological samples returned to Earth to track immune system changes during spaceflight."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RISK-002",
+      "title": "Risk of Altered Sensorimotor and Vestibular Function",
+      "source_url": "https://www.nasa.gov/reference/risk-of-altered-sensorimotor-and-vestibular-function/",
+      "hazard_categories": [
+        "altered_gravity",
+        "isolation_behavioral",
+        "distance"
+      ],
+      "summary": [
+        "Astronauts can experience motion sickness, issues with hand-eye or gait coordination, and dizziness during gravitational changes, making it difficult to walk or operate a vehicle. Ongoing research seeks to help astronauts recover faster from these changes so they can perform tasks inside and outside spacecraft.",
+        "Altered gravity and shifts between different types of gravity may trigger motion sickness and affect astronauts’ ability to orient themselves. Those issues are particularly concerning because ill crew members may have trouble with mission tasks, vehicle controls, or leaving the spacecraft to perform spacewalks. Finding ways to improve human performance when dealing with these issues are key priorities for missions to the Moon and Mars, and for any activities on their surfaces.",
+        "Ongoing research seeks to characterize the extent of disorientation astronauts face immediately after they land back on Earth . Such information gives scientists a baseline for how crews may react upon landing on other planetary bodies.",
+        "Research also focuses on developing medicine in combination with other training or orientation aids to help address or prevent motion sickness and spatial disorientation. These efforts include astronaut surveys to evaluate motion sickness medications used, teaming up with the U.S. Navy to test whether specific head movements could help relieve motion sickness symptoms after exiting a flight simulator, and testing recovery interventions during extended bedrest experiments."
+      ],
+      "countermeasures": [
+        "Ongoing research seeks to help astronauts recover faster from these changes so they can perform tasks inside and outside spacecraft.",
+        "Ongoing research seeks to characterize the extent of disorientation astronauts face immediately after they land back on Earth .",
+        "Research also focuses on developing medicine in combination with other training or orientation aids to help address or prevent motion sickness and spatial disorientation.",
+        "These efforts include astronaut surveys to evaluate motion sickness medications used, teaming up with the U.S."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RISK-003",
+      "title": "Risk of Cardiovascular Adaptations",
+      "source_url": "https://www.nasa.gov/reference/risk-of-cardiovascular-adaptations/",
+      "hazard_categories": [
+        "altered_gravity",
+        "isolation_behavioral",
+        "distance"
+      ],
+      "summary": [
+        "Weightlessness alters blood circulation and how the heart and blood vessels function, potentially increasing the risk of cardiovascular events. Research focuses on minimizing these unhealthy changes.",
+        "Low-gravity conditions and other spaceflight stressors can alter the heart and blood vessels , potentially leading to blood clots, heart arrythmias, cardiovascular disease, and low blood pressure which elevates the chances of fainting at landing. The risk of developing these conditions will increase with longer-duration missions such as a multi-year trip to Mars, so research focused on understanding and treating these risks is a priority for NASA.",
+        "Regular exercise and healthy diets help crews maintain cardiovascular fitness. Lower-body compression garments and drinking lots of fluids prior to landing can help to prevent low blood pressure. For future Mars missions, astronauts will also receive enhanced training to respond to cardiovascular emergencies.",
+        "Low gravity can also physically change the shape of the human heart , making it become more spherical."
+      ],
+      "countermeasures": [
+        "Research focuses on minimizing these unhealthy changes.",
+        "The risk of developing these conditions will increase with longer-duration missions such as a multi-year trip to Mars, so research focused on understanding and treating these risks is a priority for NASA.",
+        "Regular exercise and healthy diets help crews maintain cardiovascular fitness.",
+        "Lower-body compression garments and drinking lots of fluids prior to landing can help to prevent low blood pressure."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RISK-004",
+      "title": "Risk of Decompression Sickness",
+      "source_url": "https://www.nasa.gov/reference/risk-of-decompression-sickness/",
+      "hazard_categories": [
+        "isolation_behavioral",
+        "distance"
+      ],
+      "summary": [
+        "Transitioning from a pressurized spacecraft to a lower-pressure spacesuit can cause health and mission complications when dissolved nitrogen starts to bubble within body tissues. Research focuses on developing better prevention and faster treatment options.",
+        "When astronauts move from a pressurized environment like a spacecraft to the lower-pressure environment encountered during spacewalks, health complications can arise due to what’s known as decompression sickness. During decompression sickness, dissolved nitrogen in the bloodstream begins to bubble, which can damage body tissues.",
+        "Also known as “the bends,” decompression sickness can occur on Earth when scuba divers attempt to surface too fast. As they quickly ascend, nitrogen gas dissolved in their body tissues rapidly forms bubbles which can cause pain so severe it may force a diver to double over. In severe cases, these bubbles can impact breathing or even block blood vessels and cause stroke-like symptoms.",
+        "In space, this same phenomenon can occur when an astronaut moves from a spacecraft to a lower-pressure spacesuit for spacewalks. Spacewalks are one of the highest-risk activities an astronaut will ever do, so decompression sickness is both a health and operational risk."
+      ],
+      "countermeasures": [
+        "Research focuses on developing better prevention and faster treatment options.",
+        "Current protocols hold that when experiencing decompression sickness symptoms, astronauts should safely but rapidly end their spacewalk and return to the pressurized environment of their spacecraft.",
+        "Science-backed protocols prior to spacewalks that involve breathing carefully calibrated high levels of oxygen to displace the nitrogen in the body will also help prevent nitrogen bubbles from forming when traveling to a lower-pressure environment."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RISK-005",
+      "title": "Risk of Host-Microorganism Interactions",
+      "source_url": "https://www.nasa.gov/reference/risk-of-host-microorganism-interactions/",
+      "hazard_categories": [
+        "isolation_behavioral",
+        "hostile_environment"
+      ],
+      "summary": [
+        "Skin and gut microbiomes can change in space, potentially increasing the risk of crew members getting sick. To help keep crews healthy, researchers are exploring these microbial ecosystems and how they evolve in space.",
+        "Ongoing studies suggest that in space, the community of microbes on astronauts’ skin and in their guts changes, but how these alterations may affect the crews’ chances of contracting diseases remains unknown. Some microbes have been found to be more virulent in spaceflight, potentially elevating disease risk. Researchers remain uncertain if risk arises from microbiome changes , alterations in the ability of the microbes to cause disease, or shifts in immune system function. The interaction of these changes may be amplifying these risks.",
+        "Precautions to help minimize infections and other microbe-based threats include limiting flight crew exposure to large groups in the two weeks prior to launch. Yet despite such steps, some astronauts may still get sick in space . Researchers continue to assess how various disinfectants, anti-inflammatories, and antibiotics could help.",
+        "Astronauts provide biological samples and collect swabs from the surface of the space station to help researchers monitor microbial changes in space."
+      ],
+      "countermeasures": [
+        "To help keep crews healthy, researchers are exploring these microbial ecosystems and how they evolve in space.",
+        "Researchers remain uncertain if risk arises from microbiome changes , alterations in the ability of the microbes to cause disease, or shifts in immune system function.",
+        "Researchers continue to assess how various disinfectants, anti-inflammatories, and antibiotics could help.",
+        "Astronauts provide biological samples and collect swabs from the surface of the space station to help researchers monitor microbial changes in space."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RISK-006",
+      "title": "Risk of Hypoxia",
+      "source_url": "https://www.nasa.gov/reference/risk-of-hypoxia/",
+      "hazard_categories": [
+        "altered_gravity",
+        "isolation_behavioral",
+        "hostile_environment",
+        "distance"
+      ],
+      "summary": [
+        "Astronauts on future deep space missions will take steps to avoid “the bends” during spacewalks, but following those steps also elevates the risk of mild hypoxia — a condition that occurs when oxygen levels in body tissues become lower than normal.",
+        "Future missions to the Moon, Mars, and beyond will require more frequent spacewalks. But keeping astronauts safe and healthy during any spacewalk currently requires many hours of preparation and a large supply of pure oxygen. Astronauts must inhale pure oxygen over several hours prior to spacewalks to avoid decompression sickness, also known as “the bends.”",
+        "To help slash the pure oxygen needs for future frequent spacewalks, NASA’s spacecraft for deep-space missions will have astronauts live and work in a constant partial cabin depressurization (something that now only occurs in the airlock prior to spacewalks). This altered cabin environment will help reduce nitrogen in the body passively.",
+        "Yet that partial depressurization will simultaneously increase the risk of mild hypoxia — a condition that occurs when oxygen levels in body tissues become lower than normal. Mild hypoxia, if untreated, can cause confusion, headaches, vision impairment, and trouble sleeping."
+      ],
+      "countermeasures": [
+        "NASA’s health experts are researching hypoxia to design protocols that balance oxygen concentration and pressure to optimize astronaut health and performance before and during spacewalks.",
+        "Creating spacesuits that have the option for crews to be able to toggle pressure increases inside their suits while conducting spacewalks is another area of current research.",
+        "No current ground-based study exists to test different oxygen exposure levels on humans while they’re experiencing all the stressors of spaceflight.",
+        "Studying volunteers that spend hours or days in these chambers allows scientists to learn more about hypoxia and decompression sickness risks and to test potential interventions."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RISK-007",
+      "title": "Risk of Inadequate Food and Nutrition",
+      "source_url": "https://www.nasa.gov/reference/risk-of-inadequate-food-and-nutrition/",
+      "hazard_categories": [
+        "isolation_behavioral",
+        "hostile_environment",
+        "distance"
+      ],
+      "summary": [
+        "A healthy, balanced diet is an essential element of crew health and performance. Ongoing research focuses on designing enjoyable, long-lasting, and nutritious meals for deep space missions and understanding the consequences of inadequate nutrition.",
+        "Keeping astronauts’ bodies and minds healthy during space flight requires adequate nutrition . Designing meals for a lengthy mission, however, is a complex undertaking. Scientists need to ensure meals are acceptable, safe, nutritious, long-lasting, easy to prepare, and varied enough to avoid menu fatigue . At the International Space Station, resupply shipments include a small portion of fresh fruits and vegetables, alongside limited shelf-life options like pizza kits. Providing desired foods and extending their shelf-life will become even more complex with longer-duration missions to the Moon and Mars, since food must last longer and be optimized for mass and volume, all without regular resupply shipments.",
+        "Significant strides have been made toward improving the space food system over the years, like reducing the sodium content and adding new foods for variety. In preparation for a trip to the Red Planet, NASA researchers are focused on enhancing diets to boost nutritional value, designing a space food system that will meet the needs of a long-duration mission, and testing the food system in long-duration analogs and spaceflight.",
+        "Astronauts work with scientists to evaluate and select their preferred foods before their mission. Crew members sample menu items, such as soups, meats, and vegetables. More than 200 foods and beverages are available aboard the space station."
+      ],
+      "countermeasures": [
+        "Ongoing research focuses on designing enjoyable, long-lasting, and nutritious meals for deep space missions and understanding the consequences of inadequate nutrition.",
+        "Keeping astronauts’ bodies and minds healthy during space flight requires adequate nutrition .",
+        "In preparation for a trip to the Red Planet, NASA researchers are focused on enhancing diets to boost nutritional value, designing a space food system that will meet the needs of a long-duration mission, and testing the food system in long-duration analogs and spaceflight.",
+        "Formal risk description: Risk of performance decrement and crew illness due to inadequate food and nutrition"
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RISK-008",
+      "title": "Risk of Injury and Compromised Performance from Spacewalks",
+      "source_url": "https://www.nasa.gov/reference/risk-of-injury-and-compromised-performance-from-extravehicular-activity-eva/",
+      "hazard_categories": [
+        "altered_gravity",
+        "isolation_behavioral",
+        "distance"
+      ],
+      "summary": [
+        "Working in a spacesuit is challenging. In addition to cognitive fatigue and injury, crew members must also manage risks in the spacewalk environment, including decompression sickness, and low oxygen and high carbon dioxide levels. Research focuses on characterizing human performance in spacesuits and balancing pressure and oxygen levels.",
+        "Conducting real or simulated spacewalks creates a risk that crew members could be compromised or injured. Spacewalks are only conducted periodically at the International Space Station for various maintenance and research tasks. Spacewalks during Artemis III and beyond will build on NASA’s experience from Apollo, Shuttle, and the space station, but also come with unique challenges such as navigating new, unexplored, and unfamiliar regions of the Moon’s surface with new technologies. During deep space missions, spacewalks will occur more frequently and last longer, creating new physical and mental demands.",
+        "Researchers must consider the pressure and oxygen levels in both the habitat and the spacesuit. When the difference between atmospheric pressures is large, transitioning from the habitat to the spacesuit can cause decompression sickness. Researchers have created “prebreathe protocols” to ensure crew members are exposed to high levels of oxygen before spacewalks, primarily to help remove nitrogen from the body and mitigate the risk of decompression sickness.",
+        "NASA engineers are also working to improve the design of spacesuits so they will remain durable and safe while also offering dexterity and biomedical monitoring. Maintaining bone and muscle strength through exercise can also help crew members better sustain the weight of a spacesuit during surface missions, where there will be greater gravity—and thus an increased weight of the suits. Ongoing work aims to balance pressure, oxygen, and the physical and mental demands of spacewalks to ensure crew member health and mission success."
+      ],
+      "countermeasures": [
+        "Research focuses on characterizing human performance in spacesuits and balancing pressure and oxygen levels.",
+        "Spacewalks are only conducted periodically at the International Space Station for various maintenance and research tasks.",
+        "Researchers must consider the pressure and oxygen levels in both the habitat and the spacesuit.",
+        "Researchers have created “prebreathe protocols” to ensure crew members are exposed to high levels of oxygen before spacewalks, primarily to help remove nitrogen from the body and mitigate the risk of decompression sickness."
+      ],
+      "metrics_cited": [
+        "8 hours",
+        "56 minutes"
+      ]
+    },
+    {
+      "id": "HRP-RISK-009",
+      "title": "Risk of Reduced Cardiorespiratory and Musculoskeletal Fitness",
+      "source_url": "https://www.nasa.gov/reference/risk-of-reduced-cardiorespiratory-and-musculoskeletal-fitness/",
+      "hazard_categories": [
+        "altered_gravity",
+        "isolation_behavioral",
+        "distance"
+      ],
+      "summary": [
+        "All astronauts perform exercise during their mission to counteract losses in bone density, muscle strength, and heart and blood vessel performance. Researchers are studying what types of exercise will best protect their health and their ability to perform spacewalks.",
+        "Living in microgravity can weaken the bones, muscles, and cardiopulmonary systems of astronauts, making it difficult for them to carry out critical mission tasks while also increasing the risk of injury. These physiological changes can make falling or tripping more likely, especially during gravitational transitions to the surface of the Moon or Mars, or when returning to their daily living on Earth.",
+        "Six to seven days a week, astronauts on the International Space Station perform resistance training and aerobic exercises for 1.5 hours per day to maintain their fitness and protect against muscle and bone loss. Crew members also undergo periodic fitness self-evaluations to help researchers monitor their health and fitness and to optimize the astronauts’ training regimen. Spacecraft set to carry astronauts to the Moon and Mars, however, will likely have less space for exercise equipment. Consequently, researchers are working to understand how to optimize both exercise machines and protocols to ensure that astronaut health is maintained on these deep space missions.",
+        "The effects of exposure to microgravity can vary substantially between individual astronauts. However, data from International Space Station missions indicates that average losses to strength and aerobic fitness are 10-12% of pre-mission levels. Depending on how it’s measured, between 12-38% of space station crew members lose more than 20% of their pre-mission fitness. Strength loss affects a larger proportion of crew members than does the decline in aerobic fitness. Losses are seen across physical performance areas, including upper and lower body strength and endurance, flexibility, aerobic fitness, agility, and coordination."
+      ],
+      "countermeasures": [
+        "All astronauts perform exercise during their mission to counteract losses in bone density, muscle strength, and heart and blood vessel performance.",
+        "Researchers are studying what types of exercise will best protect their health and their ability to perform spacewalks.",
+        "Six to seven days a week, astronauts on the International Space Station perform resistance training and aerobic exercises for 1.5 hours per day to maintain their fitness and protect against muscle and bone loss.",
+        "Crew members also undergo periodic fitness self-evaluations to help researchers monitor their health and fitness and to optimize the astronauts’ training regimen."
+      ],
+      "metrics_cited": [
+        "1.5 hours"
+      ]
+    },
+    {
+      "id": "HRP-RISK-010",
+      "title": "Risk of Spaceflight Associated Neuro-ocular Syndrome (SANS)",
+      "source_url": "https://www.nasa.gov/reference/risk-of-spaceflight-associated-neuro-ocular-syndrome-sans/",
+      "hazard_categories": [
+        "altered_gravity",
+        "distance"
+      ],
+      "summary": [
+        "The structure of the eyes and brain can change with spaceflight. Research focuses on understanding the long-term health consequences of these changes and preventing them from occurring.",
+        "Chronic weightlessness can cause bodily fluids such as blood and cerebrospinal fluid to move toward the head, which can lead to optic nerve swelling, folds in the retina, flattening of the back of the eye, and swelling in the brain. This collection of eye and brain changes is called “spaceflight associated neuro-ocular syndrome,” or SANS. Some astronauts only experience mild changes in space, while others have clinically significant outcomes. The long-term health outcome from these changes is unknown but actively being investigated. The risk of developing SANS is higher during longer-duration missions and remains a top research priority for scientists ahead of a Mars mission.",
+        "NASA scientists are investigating potential ways to prevent or treat SANS, including nutritional supplements that could protect the eyes and mechanical interventions that may help reverse headward fluid shifts. They’re also gaining insights from Earth-based studies that replicate the physiological effects of floating in microgravity by requiring participants to lie in bed with a six-degree head-down tilt for weeks or months at a time.",
+        "Approximately 70 percent of astronauts aboard the International Space Station experience some swelling in the back of their eyes."
+      ],
+      "countermeasures": [
+        "Research focuses on understanding the long-term health consequences of these changes and preventing them from occurring.",
+        "The risk of developing SANS is higher during longer-duration missions and remains a top research priority for scientists ahead of a Mars mission.",
+        "NASA scientists are investigating potential ways to prevent or treat SANS, including nutritional supplements that could protect the eyes and mechanical interventions that may help reverse headward fluid shifts.",
+        "Research in support of this risk: Latest evidence"
+      ],
+      "metrics_cited": [
+        "70 percent"
+      ]
+    },
+    {
+      "id": "HRP-RISK-011",
+      "title": "Risk of Spaceflight-Induced Bone Changes",
+      "source_url": "https://www.nasa.gov/reference/risk-of-spaceflight-induced-bone-changes/",
+      "hazard_categories": [
+        "altered_gravity",
+        "distance"
+      ],
+      "summary": [
+        "Without gravity, bones break down and become more brittle, boosting the chances of painful breaks. Ongoing research seeks to better understand and quantify these losses, and help preserve bone strength through diet, exercise, and medication.",
+        "In microgravity, weight-bearing bones like the spine and hips don’t need to be as strong to support the human body. Consequently, on average, bones lose between 1% and 1.5% of their density each month during four-to-six-month missions. This rate of bone loss can make crew members susceptible to fractures and to premature osteoporosis, a disease that weakens bones as people age. More research is needed to determine if the rate of bone loss persists on lengthy missions and how to counter or reverse such changes.",
+        "Exercise to reduce the deficits in postflight bone density and strengthen muscle force is an essential component of preventing declines in bone tissue. Astronauts undergo routine bone scans before and after spaceflight to help researchers keep track of bone density changes, as well as the degree to which resistive exercise is helping to keep bones strong in microgravity. Moreover, NASA studies have found that medications like bisphosphonate could help mitigate some spaceflight-induced bone loss.",
+        "In addition to bones becoming weaker in astronauts, the spines of astronauts will straighten out and elongate in space. Consequently, the height of crew members can increase as much as 3% in space ."
+      ],
+      "countermeasures": [
+        "Ongoing research seeks to better understand and quantify these losses, and help preserve bone strength through diet, exercise, and medication.",
+        "More research is needed to determine if the rate of bone loss persists on lengthy missions and how to counter or reverse such changes.",
+        "Exercise to reduce the deficits in postflight bone density and strengthen muscle force is an essential component of preventing declines in bone tissue.",
+        "Astronauts undergo routine bone scans before and after spaceflight to help researchers keep track of bone density changes, as well as the degree to which resistive exercise is helping to keep bones strong in microgravity."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RISK-012",
+      "title": "Risk of Behavioral Changes and Psychiatric Disorders",
+      "source_url": "https://www.nasa.gov/reference/risk-of-behavioral-conditions-and-psychiatric-disorders/",
+      "hazard_categories": [
+        "radiation",
+        "isolation_behavioral",
+        "distance"
+      ],
+      "summary": [
+        "Isolation, radiation, distance from Earth, and other intense space stressors may all take a toll on the mental health of the crew. Ongoing research seeks to better understand and quantify these psychological risks.",
+        "The prolonged isolation and confinement that astronauts face in space can increase risks of behavioral issues and psychiatric disorders, such as anxiety and depression. These factors may impact a crew member’s sleep, morale, and decision making, so ongoing research about how to help crews maintain psychological health is essential for the success and safety of future missions. Crew members aboard the International Space Station can virtually talk with family and medical professionals for support, but extended communication delays with a multi-year trip to Mars will create new challenges.",
+        "Astronauts aboard the space station cope with isolation and confinement in myriad ways. To improve mental health, NASA encourages astronauts to explore self-care options including keeping a regular journal. In addition, research suggests growing fresh vegetables in space may provide therapeutic benefits by providing a tangible reminder of life back on Earth. To better prepare for a human venture to the Red Planet, NASA scientists are also investigating how research volunteers on Earth cope with living in an isolated and confined environment over multiple months. Such Earth-bound simulations of life in space help NASA test strategies that will help keep future crews safe and mission-ready on ventures to the Moon, Mars, and beyond.",
+        "A spacecraft’s windows can boost the mental health of astronauts because they reduce monotony and the sense of confinement while in space."
+      ],
+      "countermeasures": [
+        "Ongoing research seeks to better understand and quantify these psychological risks.",
+        "These factors may impact a crew member’s sleep, morale, and decision making, so ongoing research about how to help crews maintain psychological health is essential for the success and safety of future missions.",
+        "In addition, research suggests growing fresh vegetables in space may provide therapeutic benefits by providing a tangible reminder of life back on Earth.",
+        "To better prepare for a human venture to the Red Planet, NASA scientists are also investigating how research volunteers on Earth cope with living in an isolated and confined environment over multiple months."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RISK-013",
+      "title": "Risk of Inadequate Teamwork",
+      "source_url": "https://www.nasa.gov/reference/risk-of-inadequate-teamwork/",
+      "hazard_categories": [
+        "isolation_behavioral",
+        "distance"
+      ],
+      "summary": [
+        "Selecting a crew that works well together is essential for mission success and safety. Researchers are studying how to help teams in prolonged isolation and confinement function efficiently and quickly recover after setbacks occur. They’re also mapping the myriad risks from miscommunications and related team tensions.",
+        "Selecting a team that will work well together is always a top priority, but deep space missions to Mars will present additional challenges. Examples include communication delays, increased isolation, and numerous resource constraints, since resupply missions will not be possible. Astronauts on Red Planet missions will also live in a space much smaller than the International Space Station, highlighting the need for crews to work through any conflicts.",
+        "NASA astronauts practice team-building skills and exercises before their mission to prepare for potential tensions and problem solving during the mission. They also receive medical support during the mission, though communication delays will make some of that care more challenging on a Mars mission.",
+        "NASA scientists use Earth-based facilities to study how effectively people can live and work together in an environment similar to what astronauts will experience on a Mars mission. Though these simulations do not completely replicate the spaceflight experience—crews are not weightless, for example— they provide vital lessons that will shape plans and protocols for future missions."
+      ],
+      "countermeasures": [
+        "Researchers are studying how to help teams in prolonged isolation and confinement function efficiently and quickly recover after setbacks occur.",
+        "Astronauts on Red Planet missions will also live in a space much smaller than the International Space Station, highlighting the need for crews to work through any conflicts.",
+        "NASA astronauts practice team-building skills and exercises before their mission to prepare for potential tensions and problem solving during the mission.",
+        "NASA scientists use Earth-based facilities to study how effectively people can live and work together in an environment similar to what astronauts will experience on a Mars mission."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RISK-014",
+      "title": "Risk of Inadequate Sleep and Irregular Schedules",
+      "source_url": "https://www.nasa.gov/reference/risk-from-inadequate-sleep-and-irregular-schedules/",
+      "hazard_categories": [
+        "isolation_behavioral"
+      ],
+      "summary": [
+        "Space crews experience multiple hazards simultaneously. Stressors include chronic sleep loss, constant work demands, and irregularities in their internal biological clocks. Understanding how to reduce the effects of these stressors on crew health and safety is an ongoing area of research.",
+        "Astronauts are exposed to numerous stressors during spaceflight, such as work overload, irregular light-dark cycles, and sleep-pattern disruptions. These stressors take a toll on the human body and can lead to short- and long-term health consequences that can affect mission success.",
+        "To help minimize some of the stresses of spaceflight on the International Space Station, light-emitting diodes, or LEDs, simulate Earth’s light-dark cycle to help astronauts sleep better. Researchers are looking into how factors including light and caffeine use affect the biological clocks of crews and influence sleep quality. Astronauts are also given designated times for relaxation and self-care as part of their routine to help prevent burnout.",
+        "Astronauts witness 16 sunrises and sunsets per day aboard the space station, which can disrupt their sleep-wake cycle."
+      ],
+      "countermeasures": [
+        "Understanding how to reduce the effects of these stressors on crew health and safety is an ongoing area of research.",
+        "Researchers are looking into how factors including light and caffeine use affect the biological clocks of crews and influence sleep quality.",
+        "Astronauts are also given designated times for relaxation and self-care as part of their routine to help prevent burnout.",
+        "Research in support of this risk: Latest evidence"
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RISK-015",
+      "title": "Risk of Inadequate Systems Operations Support",
+      "source_url": "https://www.nasa.gov/reference/risk-of-inadequate-systems-operations-support/",
+      "hazard_categories": [
+        "distance"
+      ],
+      "summary": [
+        "Future crews on deep space missions must be able to live and work in an environment where they may face unexpected problems with software, vehicles, or other systems. Research focuses on understanding when crews need information, the types and timing of required training, or other support options.",
+        "NASA’s Mission Control Center trains astronauts to operate various systems on the International Space Station, including ultrasound and computer-based equipment. However, crews still rely on real-time assistance when problems arise. During longer and more distant missions from Earth, crew members will need more extensive training to know how to identify and fix any issues with systems, software, and equipment without real-time support from mission control.",
+        "NASA technologists strive to design user-friendly spaceflight systems so that astronauts can perform tasks independently, as needed. Crew members also receive training before a mission to familiarize themselves with various systems and respond to emergencies themselves. NASA researchers continue to work with industry partners and other experts to make spaceflight systems and vehicles easier to operate.",
+        "NASA astronauts train, on average, 300 hours in simulators before launch to help familiarize themselves with space vehicles and systems."
+      ],
+      "countermeasures": [
+        "Research focuses on understanding when crews need information, the types and timing of required training, or other support options.",
+        "NASA researchers continue to work with industry partners and other experts to make spaceflight systems and vehicles easier to operate.",
+        "Research in support of this risk: Latest evidence"
+      ],
+      "metrics_cited": [
+        "300 hours"
+      ]
+    },
+    {
+      "id": "HRP-RISK-016",
+      "title": "Risk of Injury from Dynamic Loads",
+      "source_url": "https://www.nasa.gov/reference/risk-of-injury-from-dynamic-loads/",
+      "hazard_categories": [
+        "altered_gravity",
+        "isolation_behavioral",
+        "distance"
+      ],
+      "summary": [
+        "During landing activities, crews risk getting injured. Understanding the likelihood of such injuries and how to better prevent them are areas of ongoing research.",
+        "Throughout their missions, astronauts face risks that increase their chances of injury when their vehicles land back on Earth. These risks include gravitational transitions, possible disorientation, and bone loss. Such injuries could significantly affect crew health and mission success. Astronauts moving between different gravitational fields—say, the microgravity of a spacecraft, to the low gravity of the Moon, back to the spacecraft, and then back to Earth—may also have weakened bones and muscles that heighten injury risk.",
+        "NASA scientists are building human body models to help characterize how the body is affected in various spaceflight environments. These models help scientists develop the best standards for vehicle designs to reduce injury risks (for instance, standards on seat configurations and the restraints crews use to “strap in” during landing). Researchers are also working to improve the design of spacesuits to better protect astronauts from the forces of spaceflight.",
+        "When crews land on Earth, teams are on standby to help them exit their vehicle and perform other postflight activities as they adapt to the return to gravity. But on the Moon and Mars, where there will be varying levels of gravity, crews will need to self-egress and function autonomously shortly after landing – challenges that researchers are working to solve."
+      ],
+      "countermeasures": [
+        "Understanding the likelihood of such injuries and how to better prevent them are areas of ongoing research.",
+        "Researchers are also working to improve the design of spacesuits to better protect astronauts from the forces of spaceflight.",
+        "But on the Moon and Mars, where there will be varying levels of gravity, crews will need to self-egress and function autonomously shortly after landing – challenges that researchers are working to solve.",
+        "Research in support of this risk: Latest evidence"
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RISK-017",
+      "title": "Risk of Radiation-Induced Cancers",
+      "source_url": "https://www.nasa.gov/reference/risk-of-radiation-induced-cancers/",
+      "hazard_categories": [
+        "radiation",
+        "isolation_behavioral",
+        "hostile_environment",
+        "distance"
+      ],
+      "summary": [
+        "Crews exposed to radiation from space may be more likely to develop cancer. Identifying the best ways to mitigate this risk and understand what interventions may help are ongoing research priorities.",
+        "Astronauts are exposed to higher levels of radiation in space than on Earth, which can lead to the development of certain cancers. Exposure to space radiation may also increase the risk of other degenerative disorders that affect multiple tissues, such as the heart, blood vessels and eyes. Space radiation exposure may also affect the central nervous system, causing cognitive or performance impairments during missions, and may increase the risk of astronauts developing later degenerative conditions.",
+        "NASA scientists are working to develop strategies to identify and prevent health complications from space radiation exposure, including best practices for health surveillance as well as medicines to counter the effects of radiation exposures during spaceflight. In addition, various instruments that measure radiation exposure are in place aboard the International Space Station. Scientists are also conducting tissue research on Earth aimed at developing personalized cancer risk assessments for each astronaut, based on radiation dose and genetic factors.",
+        "Earth’s protective magnetosphere , the region around the planet dominated by its magnetic field, acts like a bubble that largely shields the planet from space radiation. While missions to the space station are entirely within the magnetosphere, missions to the Moon and Mars will extend beyond this protective bubble. Given this, NASA scientists and engineers are currently building robust radiation shielding for Artemis missions and the planned lunar Gateway space station. They are also contemplating what’s needed for radiation shielding on future ventures to Mars and beyond."
+      ],
+      "countermeasures": [
+        "Identifying the best ways to mitigate this risk and understand what interventions may help are ongoing research priorities.",
+        "NASA scientists are working to develop strategies to identify and prevent health complications from space radiation exposure, including best practices for health surveillance as well as medicines to counter the effects of radiation exposures during spaceflight.",
+        "Scientists are also conducting tissue research on Earth aimed at developing personalized cancer risk assessments for each astronaut, based on radiation dose and genetic factors.",
+        "Earth’s protective magnetosphere , the region around the planet dominated by its magnetic field, acts like a bubble that largely shields the planet from space radiation."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RISK-019",
+      "title": "Isolation & Confinement",
+      "source_url": "https://www.nasa.gov/hrp/hazard-isolation-and-confinement/",
+      "hazard_categories": [
+        "isolation_behavioral",
+        "distance"
+      ],
+      "summary": [
+        "Behavioral responses occur among groups of people far from Earth who are isolated and confined in a small space over a long period of time. Crews will be carefully chosen, trained, and supported to ensure they can work effectively as a team for months or years in space.",
+        "On Earth, we have the luxury of picking up our cell phones and instantly being connected with nearly everything and everyone around us. On a trip to Mars, astronauts will be more isolated and confined than we can imagine. Sleep loss, circadian desynchronization, and work overload compound this issue and may lead to decreased performance, adverse health outcomes, and compromised mission objectives.",
+        "Researchers seek to learn whether developing a space-faring green thumb can also help astronauts ease their sense of confinement and isolation.",
+        "A NASA scientist discusses isolation and confinement in space, including how researchers study this hazard and steps the agency takes to safeguard crews' mental health."
+      ],
+      "countermeasures": [
+        "To address this hazard, experts are developing methods for monitoring behavioral health and adapting/refining various tools and technologies for use in the spaceflight environment to detect and treat early risk factors.",
+        "Research is also being conducted in workload and performance, light therapy for circadian alignment, phase shifting and alertness.",
+        "Researchers seek to learn whether developing a space-faring green thumb can also help astronauts ease their sense of confinement and isolation.",
+        "A NASA scientist discusses isolation and confinement in space, including how researchers study this hazard and steps the agency takes to safeguard crews' mental health."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RES-001",
+      "title": "Human Research Program",
+      "source_url": "https://www.nasa.gov/hrp/",
+      "hazard_categories": [
+        "radiation",
+        "altered_gravity",
+        "isolation_behavioral",
+        "distance"
+      ],
+      "summary": [
+        "HRP uses research to develop methods to protect the health and performance of astronauts in space.  With the goal of traveling to the Moon, Mars and beyond, HRP is using ground research facilities, the International Space Station, Artemis missions, and analog environments to enable cutting-edge science.",
+        "HRP offers funding, collaboration, and partnership opportunities to those interested in the future of human spaceflight.",
+        "Hear from scientists and investigators as they pursue cutting-edge and cross-disciplinary methods to ensure safe, productive, and efficient human spaceflight. Register now!"
+      ],
+      "countermeasures": [
+        "HRP uses research to develop methods to protect the health and performance of astronauts in space.",
+        "The Lifetime Surveillance of Astronaut Health program uses medical monitoring data for astronaut health surveillance."
+      ],
+      "metrics_cited": [
+        "50 years"
+      ]
+    },
+    {
+      "id": "HRP-RES-002",
+      "title": "Human Factors and Behavioral Performance",
+      "source_url": "https://www.nasa.gov/hrp/human-factors-and-behavioral-performance/",
+      "hazard_categories": [
+        "isolation_behavioral",
+        "distance"
+      ],
+      "summary": [
+        "The Human Factors and Behavioral Performance (HFBP)  element of NASA’s Human Research Program (HRP) seeks to better understand astronauts’ behavioral health.",
+        "HFBP addresses the behavioral health effects of long-duration spaceflight. The element also seeks insights into how to structure successful teams for missions and ensure that humans can efficiently navigate tasks in space.",
+        "See the risks of human spaceflight that the HFBP element investigate to help ensure the health and safety of astronauts in low-Earth orbit and beyond."
+      ],
+      "countermeasures": [
+        "Using such missions, scientists can study in detail and in larger populations how humans adapt to challenges that astronauts may encounter on missions to the Moon and Mars.",
+        "NASA to Study Human Health, Performance During Crew-13 Mission",
+        "Science dedicated to protecting the health and performance of astronauts in space."
+      ],
+      "metrics_cited": [
+        "50 years"
+      ]
+    },
+    {
+      "id": "HRP-RES-003",
+      "title": "Human Health Countermeasures",
+      "source_url": "https://www.nasa.gov/hrp/human-health-countermeasures/",
+      "hazard_categories": [
+        "altered_gravity",
+        "isolation_behavioral",
+        "hostile_environment",
+        "distance"
+      ],
+      "summary": [
+        "The Human Health Countermeasures (HHC) element of NASA’s Human Research Program (HRP) seeks to understand the physiological effects of spaceflight and develop strategies to mitigate those with detrimental effects on human health and performance.",
+        "HHC provides biomedical expertise for the development and assessment of medical standards, vehicle and spacesuit requirements, and strategies that ensure crew health during all phases of flight.",
+        "See the risks of human spaceflight that the HHC element investigate to help ensure the health and safety of astronauts in low-Earth orbit and beyond."
+      ],
+      "countermeasures": [
+        "The Human Health Countermeasures (HHC) element of NASA’s Human Research Program (HRP) seeks to understand the physiological effects of spaceflight and develop strategies to mitigate those with detrimental effects on human health and performance.",
+        "A monster of a machine is now allowing NASA scientists to study on Earth the disorientation that astronauts may encounter…",
+        "NASA to Study Human Health, Performance During Crew-13 Mission",
+        "Science dedicated to protecting the health and performance of astronauts in space."
+      ],
+      "metrics_cited": [
+        "50 years"
+      ]
+    },
+    {
+      "id": "HRP-RES-005",
+      "title": "Research Operations and Integration",
+      "source_url": "https://www.nasa.gov/hrp/research-operations-integration/",
+      "hazard_categories": [
+        "isolation_behavioral",
+        "distance"
+      ],
+      "summary": [
+        "The Research Operations and Integration (ROI) element provides planning, integration, and implementation services for research tasks by NASA’s Human Research Program (HRP).",
+        "ROI is the implementation arm of HRP, developing efficient plans for conducting human research aboard the International Space Station and in spaceflight simulations.",
+        "ROI determines how best to use spaceflight and ground-based spaceflight simulations to maximize research on the effects of long-duration spaceflight on human systems and the safeguards scientists are developing to protect crew health."
+      ],
+      "countermeasures": [
+        "ROI determines how best to use spaceflight and ground-based spaceflight simulations to maximize research on the effects of long-duration spaceflight on human systems and the safeguards scientists are developing to protect crew health.",
+        "NASA to Study Human Health, Performance During Crew-13 Mission"
+      ],
+      "metrics_cited": [
+        "50 years"
+      ]
+    },
+    {
+      "id": "HRP-RES-007",
+      "title": "Read About Altered Immunity",
+      "source_url": "https://www.nasa.gov/missions/station/scientists-probe-how-long-term-spaceflight-alters-immunity/",
+      "hazard_categories": [
+        "radiation",
+        "altered_gravity",
+        "isolation_behavioral",
+        "hostile_environment",
+        "distance"
+      ],
+      "summary": [
+        "On Earth, a human body with a properly functioning immune system will work to overcome an infection. But in space, that same immune system will have to work a bit harder to overcome the same infection. In the isolated environment of the International Space Station , many factors — physiological stress, disrupted circadian rhythms, radiation, microgravity, and other spaceflight factors — can alter an astronaut’s immune response.",
+        "As NASA prepares astronauts to head to the Moon and Mars, scientists tasked with ensuring astronaut safety want to know: How will long-duration spaceflight missions change immune responses, and will these changes be significant enough to influence crew health risks and mission success?",
+        "To learn more, NASA’s Human Research Program, or HRP , consults Dr. Brian Crucian, lead scientist for the agency’s immunology research. Building on previous studies, Crucian is now overseeing an investigation into the specific biological pathways through which the immune system reacts during spaceflight."
+      ],
+      "countermeasures": [
+        "On Earth, a human body with a properly functioning immune system will work to overcome an infection.",
+        "But in space, that same immune system will have to work a bit harder to overcome the same infection.",
+        "In the isolated environment of the International Space Station , many factors — physiological stress, disrupted circadian rhythms, radiation, microgravity, and other spaceflight factors — can alter an astronaut’s immune response.",
+        "As NASA prepares astronauts to head to the Moon and Mars, scientists tasked with ensuring astronaut safety want to know: How will long-duration spaceflight missions change immune responses, and will these changes be significant enough to influence crew health risks and mission success?"
+      ],
+      "metrics_cited": [
+        "37 hours"
+      ]
+    },
+    {
+      "id": "HRP-RES-008",
+      "title": "Read About Food Acceptability",
+      "source_url": "https://www.nasa.gov/humans-in-space/how-does-spaceflight-change-food-appeal/",
+      "hazard_categories": [
+        "isolation_behavioral",
+        "hostile_environment",
+        "distance"
+      ],
+      "summary": [
+        "Imagine eating the same meals every day for weeks, maybe months. Even the most appetizing dishes may start to lose their appeal.",
+        "In space, menu fatigue can have serious consequences. Lost appetites could result in astronauts not eating enough food, which may lead to body mass loss, nutritional deficiencies, and other health issues.",
+        "Because the effects of menu fatigue could likely worsen as mission durations increase, NASA turns to researchers like Dr. Grace Douglas, lead scientist for the Advanced Food Technology project at NASA’s Johnson Space Center in Houston. Douglas heads a study that probes how eating the same menu items changes the appeal of those foods during long-duration spaceflight."
+      ],
+      "countermeasures": [
+        "Lost appetites could result in astronauts not eating enough food, which may lead to body mass loss, nutritional deficiencies, and other health issues.",
+        "Douglas heads a study that probes how eating the same menu items changes the appeal of those foods during long-duration spaceflight.",
+        "Douglas and her team seek to analyze the responses of at least 13 astronauts for the study.",
+        "On Earth, the results of the study could help improve the nutritional intake of the elderly in residential homes and patients in hospitals."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RES-009",
+      "title": "Read About Food Physiology",
+      "source_url": "https://www.nasa.gov/missions/station/enhanced-diet-may-help-astronauts-adapt-to-spaceflight/",
+      "hazard_categories": [
+        "isolation_behavioral",
+        "hostile_environment",
+        "distance"
+      ],
+      "summary": [
+        "Eating healthily benefits the human body, both on Earth and in space. Just as a healthy diet can help improve athletic performance, a healthy diet could help astronauts better adapt to the stresses of spaceflight.",
+        "But how might eating healthy change the physiology of astronauts? To find out, Dr. Grace Douglas, lead scientist for the Advanced Food Technology project at NASA’s Johnson Space Center in Houston, is conducting a study on the physiological effects of food aboard the International Space Station .",
+        "Douglas and other researchers are assessing how the current spaceflight diet — by any assessment a healthy offering — compares to an “enhanced” spaceflight diet: one packed with foods rich in nutrients such as flavonoids, lycopene, and omega-3 fatty acids. How does such a diet affect the immune system, the gut microbiome, and nutrition? These factors are known to influence each other, and the researchers want to discover how."
+      ],
+      "countermeasures": [
+        "Grace Douglas, lead scientist for the Advanced Food Technology project at NASA’s Johnson Space Center in Houston, is conducting a study on the physiological effects of food aboard the International Space Station .",
+        "How does such a diet affect the immune system, the gut microbiome, and nutrition?",
+        "Participants in the study receive a consultation before their mission, to help in creating an enhanced spaceflight diet.",
+        "The study works like this: Participating astronauts consult with Douglas’s team to develop an enhanced diet that suits them."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RES-010",
+      "title": "Read About Space Gardening",
+      "source_url": "https://www.nasa.gov/humans-in-space/can-space-gardening-help-astronauts-cope-with-isolation/",
+      "hazard_categories": [
+        "isolation_behavioral",
+        "hostile_environment",
+        "distance"
+      ],
+      "summary": [
+        "It’s a maxim drilled into us at a young age: “Always eat your veggies!” For astronauts on the International Space Station , heeding this well-known advice is both essential and challenging. Health and nutrition are vital to mission objectives, but how do you ensure astronauts get fresh produce to eat when living off the planet?",
+        "One solution involves astronauts growing vegetables for themselves. On the station, plants such as the mizuna mustard greens seen above are grown under LED lighting and watered in plant “pillows” — special bags that contain seed and fertilizer. These plants and their pillows are housed in a unique botany facility called the Vegetable Production System, or Veggie.",
+        "Growing fresh vegetables in space offers benefits beyond providing a source of nutrition to crew members, explained Dr. Gioia Massa, project scientist at NASA’s Kennedy Space Center in Florida. Here on Earth, pandemic-induced isolation has led people to take up baking or gardening. Could developing a space-faring green thumb also help astronauts ease their sense of confinement and isolation? NASA’s Human Research Program, or HRP, has given Massa and her team of researchers the task of finding out."
+      ],
+      "countermeasures": [
+        "Health and nutrition are vital to mission objectives, but how do you ensure astronauts get fresh produce to eat when living off the planet?",
+        "Growing fresh vegetables in space offers benefits beyond providing a source of nutrition to crew members, explained Dr.",
+        "Massa hopes to survey a total of 24 astronauts before the study is complete."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RES-011",
+      "title": "Read About Spinal Health",
+      "source_url": "https://www.nasa.gov/missions/station/astronauts-spines-under-scrutiny/",
+      "hazard_categories": [
+        "altered_gravity",
+        "isolation_behavioral",
+        "distance"
+      ],
+      "summary": [
+        "Astronauts rocket off Earth to spend months isolated in orbit some 250 miles overhead. By any measure, they have fortitude and backbone in spades.",
+        "Backbone, however, is exactly what’s at risk as astronauts float in low gravity aboard the International Space Station. For every month in space, astronauts’ weight-bearing bones become roughly 1% less dense if they don’t take precautions to counter this loss. What could be happening?",
+        "Without the continuous load of Earth’s gravity, the living tissues of bone reshape themselves. Freed from pressures of Earth’s surface, cells that build new bone slow down their work. Cells that remove old bone keep chugging along. Removal outpaces growth, producing weaker, more brittle bones. Simultaneously, muscles usually activated by simply standing on Earth start to atrophy because they no longer need to work as hard."
+      ],
+      "countermeasures": [
+        "Weaver and her team study how spaceflight affects the network of bones and muscles in the spinal column.",
+        "“Spinal health is integral to postural control and facilitating the core trunk movements required for all activities on mission,” explained Weaver.",
+        "By studying muscle and bone together, Weaver hopes to tease out their “cross-talk”— how loss of bone density affects muscles, as well as how changes in muscle function and strength influence bone density.",
+        "After scrutinizing trends found through these scans, scientists and engineers will brainstorm strategies — such as specific resistive exercises — to counter bone and muscle loss in space."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RES-012",
+      "title": "Read About Veggie Monitoring",
+      "source_url": "https://www.nasa.gov/missions/station/researchers-put-space-garden-microbes-under-the-microscope/",
+      "hazard_categories": [
+        "radiation",
+        "isolation_behavioral",
+        "hostile_environment",
+        "distance"
+      ],
+      "summary": [
+        "When people and equipment travel to the International Space Station , microbes like bacteria and fungi also come along for the ride. While some are harmless or even beneficial, some hitchhiking microbes could cause problems on the station. Even sparse populations of microbes that are normally benign on Earth could impact crew health if given a chance to multiply. Other bacteria, if grown unchecked on station surfaces, can potentially degrade critical life support, research, and electronic systems.",
+        "To ensure crew safety, NASA scientists carefully monitor the microbiome of the space station. They have two main goals: to map and keep track of microbes present through time, and to discover any patterns of microbial growth that could potentially affect the crew’s health and safety. They’re seeking to puzzle out whether the station itself creates conditions that spur microbial growth.",
+        "A group of NASA scientists are paying particular attention to monitoring the Vegetable Production System, or Veggie, the hardware used for growing plants aboard the space station. Led by Dr. Cherie Oubre, a senior scientist at NASA’s Johnson Space Center Microbiology Laboratory in Houston, this group is on a multiyear effort to characterize and monitor the microbes present on Veggie."
+      ],
+      "countermeasures": [
+        "To ensure crew safety, NASA scientists carefully monitor the microbiome of the space station.",
+        "A group of NASA scientists are paying particular attention to monitoring the Vegetable Production System, or Veggie, the hardware used for growing plants aboard the space station.",
+        "Cherie Oubre, a senior scientist at NASA’s Johnson Space Center Microbiology Laboratory in Houston, this group is on a multiyear effort to characterize and monitor the microbes present on Veggie.",
+        "To prepare, we must assess Veggie’s vulnerabilities and carefully monitor it for microbial growth.”"
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "HRP-RES-013",
+      "title": "Learn About the Five Hazards",
+      "source_url": "https://www.nasa.gov/hrp/hazards/",
+      "hazard_categories": [
+        "radiation",
+        "altered_gravity",
+        "isolation_behavioral",
+        "hostile_environment",
+        "distance"
+      ],
+      "summary": [
+        "Astronauts encounter five hazards as they journey through space. Recognizing these hazards allows NASA to seek ways that overcome the challenges of sending humans to the space station, the Moon, Mars, and beyond.",
+        "A human journey to Mars, at first glance, offers an inexhaustible amount of complexities. To bring such a mission to the Red Planet from fiction to fact, NASA’s Human Research Program has pinpointed five hazards that astronauts will encounter on their journeys. These include space radiation , isolation and confinement , distance from Earth , gravity (and the lack of it), and closed or hostile environments. Scroll down to learn details involving each hazard.",
+        "Pooling the challenges of human spaceflight into categories allows for an organized effort to overcome the obstacles that lay before such a mission. However, these hazards do not stand alone. They can feed off one another and exacerbate effects on the human body, which are being studied using ground-based analogs , laboratories, and the International Space Station . These locations all serve as test beds to evaluate human performance, as well as the effectiveness of strategies that could keep astronauts safe and healthy in space."
+      ],
+      "countermeasures": [
+        "Maintaining a safe ecosystem inside a spacecraft presents unique challenges, from ensuring optimal temperatures, pressures, and lighting, to reducing noise, monitoring microbial communities, and tracking immune responses."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "CSA-RAD-001",
+      "title": "What is radiation?",
+      "source_url": "https://www.asc-csa.gc.ca/eng/astronauts/space-medicine/radiation.asp",
+      "hazard_categories": [
+        "radiation"
+      ],
+      "summary": [
+        "Radiation is the spread of energy through space or matter in the form of waves or particles."
+      ],
+      "countermeasures": [],
+      "metrics_cited": []
+    },
+    {
+      "id": "CSA-RAD-002",
+      "title": "What kind of radiation are humans exposed to on Earth?",
+      "source_url": "https://www.asc-csa.gc.ca/eng/astronauts/space-medicine/radiation.asp",
+      "hazard_categories": [
+        "radiation"
+      ],
+      "summary": [
+        "Natural background radiation from cosmic sources ( e.g. , galactic cosmic rays, solar radiation) and from terrestrial sources ( e.g. , radiation emitted by rocks, radon)",
+        "Manmade radiation ( e.g. , diagnostic X-ray imaging, nuclear reactors)"
+      ],
+      "countermeasures": [],
+      "metrics_cited": []
+    },
+    {
+      "id": "CSA-RAD-003",
+      "title": "What kind of radiation are humans exposed to in space?",
+      "source_url": "https://www.asc-csa.gc.ca/eng/astronauts/space-medicine/radiation.asp",
+      "hazard_categories": [
+        "radiation",
+        "hostile_environment",
+        "distance"
+      ],
+      "summary": [
+        "Soft x-ray image of a solar flare on the Sun. Solar flares give off harmful solar particles that make up one type of space radiation. (Credit: Yohkoh Soft X-Ray Telescope, courtesy of NASA )",
+        "Galactic cosmic rays ( GCR ) originating outside the solar system;",
+        "Solar particles emitted by the sun during solar flares (solar particle events);",
+        "Radiation trapped by the Earth's magnetic field."
+      ],
+      "countermeasures": [
+        "On the surface of the Earth, these types of radiation are not significant health hazards because the Earth's atmosphere and magnetic field protect us from most of the radiation from space.",
+        "Astronauts in low Earth orbit still receive some protection from the Earth's atmosphere and magnetic field, but radiation becomes a much bigger problem when they travel to places outside these protective barriers, like the moon or mars."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "CSA-RAD-004",
+      "title": "The effects of radiation on the human body",
+      "source_url": "https://www.asc-csa.gc.ca/eng/astronauts/space-medicine/radiation.asp",
+      "hazard_categories": [
+        "radiation",
+        "hostile_environment"
+      ],
+      "summary": [
+        "Space radiation is one of the main health hazards of spaceflight. It is dangerous because it has sufficient energy to change or break DNA molecules, which can damage or kill a cell. This can lead to health problems ranging from acute effects to long term effects.",
+        "Acute effects such as changes to the blood, diarrhea, nausea, and vomiting are mild and recoverable. Other effects of acute radiation exposure are much more severe such as central nervous system damage or even death. Acute effects are not expected to result from exposure to space radiation, except if an astronaut is exposed to a large solar particle event, such as a solar flare, which produces a high dose of radiation.",
+        "The major concern about space radiation is the long term effects on astronauts. Long term effects can include cataracts, increased chance of cancer, and sterility. Some health effects can skip a generation and appear in the descendants of the exposed individual, being passed on by mutated genes.",
+        "Amount of shielding from the spacecraft or spacesuit,"
+      ],
+      "countermeasures": [
+        "Other effects of acute radiation exposure are much more severe such as central nervous system damage or even death.",
+        "Acute effects are not expected to result from exposure to space radiation, except if an astronaut is exposed to a large solar particle event, such as a solar flare, which produces a high dose of radiation.",
+        "The types of health problems that occur are determined by the extent of exposure to radiation, an astronaut's vulnerability to radiation and other variables.",
+        "Amount of shielding from the spacecraft or spacesuit,"
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "CSA-RAD-005",
+      "title": "Space radiation exposure limits for astronauts",
+      "source_url": "https://www.asc-csa.gc.ca/eng/astronauts/space-medicine/medical-support.asp",
+      "hazard_categories": [
+        "radiation"
+      ],
+      "summary": [
+        "An international panel dealing with medical issues concerning International Space Station ( ISS ) astronauts, the ISS Multilateral Medical Operations Panel ( ISS MMOP ) and its Radiation Health Working Group ( RHWG ) , are responsible for setting exposure limits for ISS astronauts. The standards are based on the recommendations of the International Commission on Radiological Protection ( ICRP ) and the National Council on Radiation Protection and Measurement ( NCRP ) . After exceeding the set career limit, there is a greater probability that astronauts will develop harmful health effects, and so they are no longer allowed to participate in space flight. The career limit for Canadian astronauts is the same as what is recommended for national workers in the radiation field, such as x-ray technicians. The exposure limits for 30 days and 1 year are to prevent acute effects of radiation exposure and career limits are to prevent long term effects."
+      ],
+      "countermeasures": [
+        "An international panel dealing with medical issues concerning International Space Station ( ISS ) astronauts, the ISS Multilateral Medical Operations Panel ( ISS MMOP ) and its Radiation Health Working Group ( RHWG ) , are responsible for setting exposure limits for ISS astronauts.",
+        "The standards are based on the recommendations of the International Commission on Radiological Protection ( ICRP ) and the National Council on Radiation Protection and Measurement ( NCRP ) .",
+        "The exposure limits for 30 days and 1 year are to prevent acute effects of radiation exposure and career limits are to prevent long term effects."
+      ],
+      "metrics_cited": [
+        "30 days"
+      ]
+    },
+    {
+      "id": "CSA-RAD-006",
+      "title": "Overexposure prevention methods",
+      "source_url": "https://www.asc-csa.gc.ca/eng/astronauts/space-medicine/radiation.asp",
+      "hazard_categories": [
+        "radiation"
+      ],
+      "summary": [
+        "Flight surgeons and scientists continuously monitor astronauts' exposures to ensure that the astronauts do not exceed the set radiation exposure limits. When in space, astronauts are monitored 24 hours per day by the Space Radiation Analysis Group ( SRAG ) from NASA 's Mission Control Center in Houston, Texas. The SRAG carefully analyzes the exposure data from radiation detectors on the ISS and passes the results on to the medical team responsible for the health and safety of astronauts. This data and \"radiation weather\" forecasts obtained from the National Oceanic and Atmospheric Administration ( NOAA ) are used by mission planners to schedule potentially high radiation exposure activities, such as spacewalks, for times when cosmic radiation levels are the lowest. The ultimate goal is to keep radiation exposure below the limits; therefore the ALARA principle is followed to make sure that exposures are always As Low As Reasonably Achievable.",
+        "The Canadian Space Agency is supporting the development of the new Canadian radiation detectors called Bubble Detectors and MOSFET Dosimeters to better monitor and assess astronauts' radiation exposures and doses."
+      ],
+      "countermeasures": [
+        "Flight surgeons and scientists continuously monitor astronauts' exposures to ensure that the astronauts do not exceed the set radiation exposure limits.",
+        "When in space, astronauts are monitored 24 hours per day by the Space Radiation Analysis Group ( SRAG ) from NASA 's Mission Control Center in Houston, Texas.",
+        "The SRAG carefully analyzes the exposure data from radiation detectors on the ISS and passes the results on to the medical team responsible for the health and safety of astronauts.",
+        "This data and \"radiation weather\" forecasts obtained from the National Oceanic and Atmospheric Administration ( NOAA ) are used by mission planners to schedule potentially high radiation exposure activities, such as spacewalks, for times when cosmic radiation levels are the lowest."
+      ],
+      "metrics_cited": [
+        "24 hours"
+      ]
+    },
+    {
+      "id": "CSA-RAD-007",
+      "title": "Radiation Health Working Group ( RHWG )",
+      "source_url": "https://www.asc-csa.gc.ca/eng/astronauts/space-medicine/medical-support.asp",
+      "hazard_categories": [
+        "radiation"
+      ],
+      "summary": [
+        "To support the Multilateral Medical Operations Panel ( MMOP ) in coordinating input from the international partners regarding acoustic issues for the maintenance of astronaut's health and optimal performance.",
+        "The Environmental Health Working Group is composed of four sub-groups: air quality, water quality, microbiology and acoustics",
+        "Canadian Space Agency ( CSA ) flight surgeon, Dr. Jean-Marc Comtois , provided medical support to CSA astronaut Marc Garneau during extravehicular activity ( EVA ) training at the National Aeronautics and Space Administration (NASA) Neutral Buoyancy Laboratory in Houston, Texas in preparation for mission STS -97 ."
+      ],
+      "countermeasures": [],
+      "metrics_cited": []
+    },
+    {
+      "id": "CSA-RAD-008",
+      "title": "Radiation projects",
+      "source_url": "https://www.asc-csa.gc.ca/eng/astronauts/space-medicine/projects-radiation.asp",
+      "hazard_categories": [
+        "radiation",
+        "hostile_environment"
+      ],
+      "summary": [
+        "The CSA , in cooperation with the International Space Station ( ISS ) international partners, is involved in the study of space radiation. The main goal of the CSA is to develop technology and methods to measure and monitor astronauts' exposure to space radiation to better protect them from its harmful effects.",
+        "Canadian Space Agency ( CSA ) astronaut Chris Hadfield is secured by foot restraints on the shuttle's Canadarm while he works on the ISS ' Canadarm2. (Credit: NASA )",
+        "Radiation in space is much stronger than radiation experienced on Earth. For example, a typical daily radiation dose aboard the ISS is approximately equivalent to that received on Earth from natural sources (other than radon) in an entire year. This is because on Earth, humans are protected from most space radiation by our planet's atmosphere and magnetic field. With astronauts living on the ISS for longer periods of time, and the possibility of interplanetary space missions, it is necessary to continue improving technology to monitor and measure radiation, and to protect against it.",
+        "Radiation detectors or dosimeters are used to measure the radiation levels that astronauts are exposed to in space. Radiation dosimetry is the science of measuring the amount of radiation energy absorbed in a given area. The CSA works with NASA 's Space Radiation Analysis Group ( SRAG ) to ensure that the astronauts' radiation exposures do not exceed the acceptable limits during a mission. The SRAG estimates how much radiation will be present during a mission based on solar activity forecasts provided by the National Oceanic and Atmospheric Administration ( NOAA ). They also monitor the actual radiation exposures during a mission based on data from personal dosimeters (radiation detectors worn by the astronauts) and area dosimeters (radiation detectors placed in different locations inside and outside a spacecraft). Along with the SRAG measurements, each astronaut's blood is collected to measure changes or mutations in the DNA (genetic material found within our cells) to determine his or her level of exposure and the extent of the damaging effects caused by radiation."
+      ],
+      "countermeasures": [
+        "The CSA , in cooperation with the International Space Station ( ISS ) international partners, is involved in the study of space radiation.",
+        "The main goal of the CSA is to develop technology and methods to measure and monitor astronauts' exposure to space radiation to better protect them from its harmful effects.",
+        "This is because on Earth, humans are protected from most space radiation by our planet's atmosphere and magnetic field.",
+        "With astronauts living on the ISS for longer periods of time, and the possibility of interplanetary space missions, it is necessary to continue improving technology to monitor and measure radiation, and to protect against it."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "CSA-RAD-009",
+      "title": "EVARM: Little transistor records radiation levels",
+      "source_url": "https://www.asc-csa.gc.ca/eng/iss/evarm.asp",
+      "hazard_categories": [
+        "radiation",
+        "altered_gravity"
+      ],
+      "summary": [
+        "The EVARM project, led by the Thomson Nielsen firm (2002-2003), involved measuring how much radiation astronauts are exposed to during spacewalks. On certain parts of their bodies, astronauts receive radiation doses that are 6 to 25 times higher than those received by workers in the nuclear industry. This project helped improve a radiation detector that is now being used in over 1,000 cancer clinics worldwide . This device better protects medical staff who administer radiation treatments as well as targets and measures radiation doses delivered to tumors.",
+        "The EVARM experiment measured the radiation delivered to the most sensitive organs: the skin, eyes, bone marrow, and lymphatic organs. Spacesuit shielding influences the quantity and type of radiation absorbed by astronauts. Overexposure may burn the skin, cause cataracts in the lens of the eye and the immediate depletion of blood cells, as well as increase the risk of cancer.",
+        "We can compare the internationally recognized limits of radiation exposure for workers and the maximum allowed doses for astronauts.",
+        "The table shows that radiation exposure for astronauts to the skin is six times higher, to their eyes, 13 times higher, and to their blood-forming organs, 25 times higher."
+      ],
+      "countermeasures": [
+        "This device better protects medical staff who administer radiation treatments as well as targets and measures radiation doses delivered to tumors.",
+        "The EVARM experiment measured the radiation delivered to the most sensitive organs: the skin, eyes, bone marrow, and lymphatic organs.",
+        "Spacesuit shielding influences the quantity and type of radiation absorbed by astronauts.",
+        "Overexposure may burn the skin, cause cataracts in the lens of the eye and the immediate depletion of blood cells, as well as increase the risk of cancer."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "CSA-RAD-010",
+      "title": "Radi-N2: Tracking space radiation and its risks",
+      "source_url": "https://www.asc-csa.gc.ca/eng/sciences/radi-n2.asp",
+      "hazard_categories": [
+        "radiation",
+        "altered_gravity",
+        "hostile_environment"
+      ],
+      "summary": [
+        "Radi-N2 used bubble monitors, a Canadian-made technology which will lead to better protection of crews in Earth orbit and on deep-space missions.",
+        "From Earth, the Sun looks like a calm, unchanging source of light. But it is actually a highly active, constantly churning ball of gas. The Sun continuously releases not only heat and visible light, but also radiation in the form of massive streams of high-energy particles. Thankfully, Earth's atmosphere and magnetosphere largely shield us from this threat.",
+        "But space can be a potentially hazardous place to live and work. Astronauts aboard the International Space Station ( ISS ) are at higher risk of radiation exposure, and receive greater doses than they would here on Earth.",
+        "One of the most serious types is neutron radiation. It makes up about 30% of the radiation that astronauts receive on the Space Station, and can potentially cause cataracts, bone marrow damage, and even cancer over long-term exposure."
+      ],
+      "countermeasures": [
+        "Radi-N2 used bubble monitors, a Canadian-made technology which will lead to better protection of crews in Earth orbit and on deep-space missions.",
+        "Thankfully, Earth's atmosphere and magnetosphere largely shield us from this threat.",
+        "Astronauts aboard the International Space Station ( ISS ) are at higher risk of radiation exposure, and receive greater doses than they would here on Earth.",
+        "One of the most serious types is neutron radiation."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "CSA-SCI-001",
+      "title": "Why do we conduct science experiments in space? | Canadian Space Agency",
+      "source_url": "https://www.asc-csa.gc.ca/eng/iss/science/why-do-we-conduct-science-experiments-in-space.asp",
+      "hazard_categories": [
+        "altered_gravity",
+        "general_human_research"
+      ],
+      "summary": [
+        "Science is our quest for more knowledge about the world and ourselves. For thousands of years, humanity has pushed boundaries in its search to learn more about our place in the universe."
+      ],
+      "countermeasures": [],
+      "metrics_cited": []
+    },
+    {
+      "id": "CSA-SCI-002",
+      "title": "Canadian science on the International Space Station",
+      "source_url": "https://www.asc-csa.gc.ca/eng/iss/",
+      "hazard_categories": [
+        "hostile_environment"
+      ],
+      "summary": [
+        "use the knowledge obtained to improve our quality of life on Earth",
+        "Did you know that many science experiments are being conducted on the ISS at any given time? Why do we do science in space? (Credit: Canadian Space Agency) ( Transcript )"
+      ],
+      "countermeasures": [
+        "use the knowledge obtained to improve our quality of life on Earth",
+        "Did you know that many science experiments are being conducted on the ISS at any given time?"
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "CSA-SCI-003",
+      "title": "Preparing for deep-space destinations",
+      "source_url": "https://www.asc-csa.gc.ca/eng/iss/science/why-do-we-conduct-science-experiments-in-space.asp",
+      "hazard_categories": [
+        "radiation",
+        "isolation_behavioral",
+        "distance"
+      ],
+      "summary": [
+        "As space agencies from all over the world are looking to propel humanity further into the solar system, Canada's space science community continues to conduct research aboard the ISS .",
+        "We want to better understand the risks associated with human space flight—and help find countermeasures and treatments—to identify, characterize, and mitigate the effects on astronauts' health in order to make space travel safer.",
+        "longer periods of isolation, very far from home",
+        "increased delays in communication with Earth"
+      ],
+      "countermeasures": [
+        "As space agencies from all over the world are looking to propel humanity further into the solar system, Canada's space science community continues to conduct research aboard the ISS .",
+        "We want to better understand the risks associated with human space flight—and help find countermeasures and treatments—to identify, characterize, and mitigate the effects on astronauts' health in order to make space travel safer.",
+        "increased delays in communication with Earth",
+        "less ability to rely on Earth for food, materials, and emergency medical assistance"
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "CSA-SCI-004",
+      "title": "Using the knowledge obtained to improve our quality of life on Earth",
+      "source_url": "https://www.asc-csa.gc.ca/eng/iss/science/why-do-we-conduct-science-experiments-in-space.asp",
+      "hazard_categories": [
+        "altered_gravity",
+        "isolation_behavioral"
+      ],
+      "summary": [
+        "Studying the way our body changes in space help us understand the impacts of reduced levels of physical activity and issues that affect older adult populations on Earth.",
+        "Living in weightless conditions changes the human body in many ways. The effects observed in astronauts are similar to accelerated aging and health problems caused by a sedentary lifestyle . Studying the human body in space for six months gives us data that would take years to gather on Earth. New information gained in space contributes to improved quality of life on Earth .",
+        "Canadian scientists use space to study our bones, heart, blood vessels and brain. Their experiments have produced findings that can help people suffering from balance problems , such as seniors; osteoporosis ; cardiovascular disorders; and Type-2 diabetes ."
+      ],
+      "countermeasures": [
+        "Studying the way our body changes in space help us understand the impacts of reduced levels of physical activity and issues that affect older adult populations on Earth.",
+        "The effects observed in astronauts are similar to accelerated aging and health problems caused by a sedentary lifestyle .",
+        "Studying the human body in space for six months gives us data that would take years to gather on Earth.",
+        "New information gained in space contributes to improved quality of life on Earth ."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "CSA-SCI-005",
+      "title": "How does space affect the human body?",
+      "source_url": "https://www.asc-csa.gc.ca/eng/multimedia/search/image/watch/8056",
+      "hazard_categories": [
+        "altered_gravity",
+        "general_human_research"
+      ],
+      "summary": [
+        "Space has tremendous effects on the human body! By studying astronauts' health, we also help people on Earth. (Credit: Canadian Space Agency)"
+      ],
+      "countermeasures": [
+        "By studying astronauts' health, we also help people on Earth."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "CSA-SCI-006",
+      "title": "Learn more about Canadian science on the ISS",
+      "source_url": "https://www.asc-csa.gc.ca/eng/iss/science/experiments.asp",
+      "hazard_categories": [
+        "altered_gravity",
+        "general_human_research"
+      ],
+      "summary": [
+        "On average, there are 200 international space experiments on board the ISS at any given time. Canadian universities and companies in the space community are involved in advancing our knowledge of health and life sciences in space."
+      ],
+      "countermeasures": [
+        "On average, there are 200 international space experiments on board the ISS at any given time.",
+        "Canadian universities and companies in the space community are involved in advancing our knowledge of health and life sciences in space."
+      ],
+      "metrics_cited": []
+    },
+    {
+      "id": "CSA-SCI-008",
+      "title": "Payload Telescience Operations Centre",
+      "source_url": "https://www.asc-csa.gc.ca/eng/iss/payload-telescience-operations-centre.asp",
+      "hazard_categories": [
+        "altered_gravity",
+        "general_human_research"
+      ],
+      "summary": [
+        "The Payload Telescience Operations Centre ( PTOC ) is located at Canadian Space Agency ( CSA ) headquarters in Longueuil , Quebec.",
+        "Scientists and engineers use this facility to support astronauts as they conduct Canadian science experiments on board the International Space Station ( ISS ).",
+        "The PTOC at CSA headquarters in Longueuil , Quebec. (Credit: CSA )",
+        "They are often assisted by visiting researchers from all over Canada."
+      ],
+      "countermeasures": [
+        "Scientists and engineers use this facility to support astronauts as they conduct Canadian science experiments on board the International Space Station ( ISS ).",
+        "They are often assisted by visiting researchers from all over Canada."
+      ],
+      "metrics_cited": []
+    }
+  ]
+}
