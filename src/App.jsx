@@ -2,43 +2,55 @@ import React, { useEffect, useMemo, useState } from 'react';
 import telemetryData from './data/astronaut_telemetry_180d.json';
 import nasaCsaKb from './data/unified_nasa_csa_kb.json';
 import { CIRCADIAN_MODES, getCircadianModeFromDate } from './utils/circadianThemes';
-import { evaluateTelemetryDay } from './utils/clinicalEngine';
-import CircadianHeader from './components/CircadianHeader';
-import MissionSimulator from './components/MissionSimulator';
-import SproutBotCopilot from './components/SproutBotCopilot';
-import BiomarkerGrid from './components/BiomarkerGrid';
-import PvtCognitiveTest from './components/PvtCognitiveTest';
-import CountermeasuresPanel from './components/CountermeasuresPanel';
-import MultiDeviceEcosystem from './components/MultiDeviceEcosystem';
-import CsaDosimetryScanner from './components/CsaDosimetryScanner';
-import VeggieNutritionModule from './components/VeggieNutritionModule';
-import EarthTelemetryModal from './components/EarthTelemetryModal';
+import { evaluateDay } from './services/evaluationEngine';
+import { computeMetricHistories, buildMissionAlertLog } from './services/historyService';
+import { inferPsychologicalState } from './services/psychologicalInferenceEngine';
+import TopEarthHeader from './components/global/TopEarthHeader';
+import SidebarNav from './components/global/SidebarNav';
+import BottomMissionSimulator from './components/global/BottomMissionSimulator';
+import EarthSyncPacketModal from './components/global/EarthSyncPacketModal';
+import SproutBotFloatingWidget from './components/copilot/SproutBotFloatingWidget';
+import DashboardOverview from './components/modules/1_DashboardOverview';
+import HealthTrendsModule from './components/modules/2_HealthTrendsModule';
+import RadiationEvarmModule from './components/modules/3_RadiationEvarmModule';
+import WellnessVeggieModule from './components/modules/4_WellnessVeggieModule';
+import DiagnosticSuiteModule from './components/modules/5_DiagnosticSuiteModule';
+import MissionAlertLogModule from './components/modules/6_MissionAlertLogModule';
+import MultiDeviceEcosystem from './components/modules/7_MultiDeviceEcosystem';
 
 export default function App() {
   const [circadianMode, setCircadianMode] = useState(() => getCircadianModeFromDate());
   const [selectedDay, setSelectedDay] = useState(25);
+  const [activeModule, setActiveModule] = useState('overview');
   const [isPlaying, setIsPlaying] = useState(false);
-  const [livePvtMs, setLivePvtMs] = useState(null);
-  const [activeView, setActiveView] = useState('cockpit');
+  const [liveDemoOverrides, setLiveDemoOverrides] = useState({});
   const [isTelemetryModalOpen, setIsTelemetryModalOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const theme = CIRCADIAN_MODES[circadianMode];
   const telemetry = telemetryData.telemetry;
   const thresholds = nasaCsaKb.clinical_thresholds;
   const knowledgeBase = nasaCsaKb.knowledge_base;
 
-  // Auto-advance 180-day playback when enabled
+  // Auto-advance 180-day simulator when playing
   useEffect(() => {
     if (!isPlaying) return;
     const timer = setInterval(() => {
       setSelectedDay((prev) => (prev >= 180 ? 1 : prev + 1));
-    }, 1100);
+      setLiveDemoOverrides({});
+    }, 1200);
     return () => clearInterval(timer);
   }, [isPlaying]);
 
   const handleSelectDay = (day) => {
-    setSelectedDay(day);
-    setLivePvtMs(null);
+    const clamped = Math.max(1, Math.min(180, day));
+    setSelectedDay(clamped);
+    setLiveDemoOverrides({});
+  };
+
+  const handleSelectModule = (moduleId) => {
+    setActiveModule(moduleId);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const dayData = useMemo(
@@ -46,138 +58,208 @@ export default function App() {
     [telemetry, selectedDay]
   );
 
-  const evaluation = useMemo(
-    () => evaluateTelemetryDay(dayData, thresholds, knowledgeBase, livePvtMs),
-    [dayData, thresholds, knowledgeBase, livePvtMs]
+  const prevDayData = useMemo(
+    () => (selectedDay > 1 ? telemetry.find((d) => d.mission_day === selectedDay - 1) || null : null),
+    [telemetry, selectedDay]
   );
 
-  const handleJumpToView = (viewId) => {
-    setActiveView(viewId);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+  const evaluation = useMemo(
+    () =>
+      evaluateDay({
+        dayData,
+        prevDayData,
+        thresholds,
+        knowledgeBase,
+        liveDemoOverrides,
+      }),
+    [dayData, prevDayData, thresholds, knowledgeBase, liveDemoOverrides]
+  );
+
+  const histories = useMemo(
+    () => computeMetricHistories(telemetry, selectedDay, liveDemoOverrides),
+    [telemetry, selectedDay, liveDemoOverrides]
+  );
+
+  const alertLog = useMemo(
+    () => buildMissionAlertLog(telemetry, selectedDay, thresholds, knowledgeBase, liveDemoOverrides),
+    [telemetry, selectedDay, thresholds, knowledgeBase, liveDemoOverrides]
+  );
+
+  const psychInference = useMemo(
+    () =>
+      inferPsychologicalState({
+        telemetry,
+        selectedDay,
+        evaluation,
+        liveDemoOverrides,
+        knowledgeBase,
+        circadianMode,
+      }),
+    [telemetry, selectedDay, evaluation, liveDemoOverrides, knowledgeBase, circadianMode]
+  );
+
+  const handleTriggerCopilotAction = (actionPrompt) => {
+    if (!actionPrompt) return;
+    if (actionPrompt.actionType === 'attenuate_lights') {
+      setCircadianMode((prev) => (prev === 'sunset' ? 'night' : 'sunset'));
+      return;
+    }
+    if (actionPrompt.actionType === 'navigate' && actionPrompt.targetModule) {
+      handleSelectModule(actionPrompt.targetModule);
+    }
+  };
+
+  const handleApplyLivePvt = (ms) => {
+    setLiveDemoOverrides((prev) => ({ ...prev, pvt_reaction_ms: ms }));
+  };
+
+  const handleResetLivePvt = () => {
+    setLiveDemoOverrides((prev) => {
+      const next = { ...prev };
+      delete next.pvt_reaction_ms;
+      return next;
+    });
+  };
+
+  const handleSyncLiveOverrides = (overridesObj) => {
+    setLiveDemoOverrides((prev) => ({ ...prev, ...overridesObj }));
+  };
+
+  const handleResetAllLiveOverrides = () => {
+    setLiveDemoOverrides({});
   };
 
   return (
     <div className={`min-h-screen circadian-transition ${theme.appBg}`}>
-      <CircadianHeader
-        mode={circadianMode}
+      {/* Fixed Top Earth & Autonomy Header */}
+      <TopEarthHeader
+        selectedDay={selectedDay}
+        dayData={dayData}
+        circadianMode={circadianMode}
         onSelectMode={setCircadianMode}
         theme={theme}
-        activeView={activeView}
-        onSelectView={setActiveView}
         onOpenTelemetryModal={() => setIsTelemetryModalOpen(true)}
-        dayData={dayData}
-        overallStatus={evaluation.overallStatus}
+        hasAnyLiveOverride={evaluation.hasAnyLiveOverride}
+        overallMeta={evaluation.overallMeta}
+        mobileMenuOpen={mobileMenuOpen}
+        onToggleMobileMenu={() => setMobileMenuOpen((v) => !v)}
       />
 
-      <main className="max-w-[1440px] mx-auto px-4 sm:px-6 py-5 space-y-6">
-        {/* Always-available 180-day Mission Simulator & Demo Milestones */}
-        <MissionSimulator
-          telemetry={telemetry}
-          selectedDay={selectedDay}
-          onSelectDay={handleSelectDay}
-          isPlaying={isPlaying}
-          onTogglePlay={() => setIsPlaying((p) => !p)}
+      {/* Progressive Disclosure Main Shell */}
+      <div className="max-w-[1600px] mx-auto px-3 sm:px-6 pt-28 xl:pt-20 pb-36 sm:pb-32 flex gap-5">
+        <SidebarNav
+          activeModule={activeModule}
+          onSelectModule={handleSelectModule}
+          evaluation={evaluation}
+          alertLogCount={alertLog.length}
           theme={theme}
+          mobileMenuOpen={mobileMenuOpen}
+          onCloseMobileMenu={() => setMobileMenuOpen(false)}
         />
 
-        {activeView === 'cockpit' && (
-          <>
-            {/* Interactive Sprout-Bot Copiloto */}
-            <SproutBotCopilot
+        <main className="flex-1 min-w-0">
+          {activeModule === 'overview' && (
+            <DashboardOverview
               evaluation={evaluation}
+              psychInference={psychInference}
               circadianMode={circadianMode}
               theme={theme}
-              onJumpToView={handleJumpToView}
+              onNavigateModule={handleSelectModule}
+              onTriggerCopilotAction={handleTriggerCopilotAction}
             />
+          )}
 
-            {/* 6 Biomarkers + 10s Live PVT Cognitive Micro-Test */}
-            <div className="grid grid-cols-1 xl:grid-cols-12 gap-5 items-start">
-              <div className="xl:col-span-8">
-                <BiomarkerGrid biomarkers={evaluation.biomarkers} theme={theme} />
-              </div>
-              <div className="xl:col-span-4 xl:mt-9">
-                <PvtCognitiveTest
-                  datasetPvtMs={dayData.metrics.pvt_reaction_ms}
-                  livePvtMs={livePvtMs}
-                  onApplyLivePvt={setLivePvtMs}
-                  onResetLivePvt={() => setLivePvtMs(null)}
-                  theme={theme}
-                />
-              </div>
-            </div>
-
-            {/* NASA HRP & CSA Countermeasures Engine */}
-            <CountermeasuresPanel
+          {activeModule === 'health' && (
+            <HealthTrendsModule
               evaluation={evaluation}
-              allRecords={knowledgeBase}
+              histories={histories}
+              selectedDay={selectedDay}
               theme={theme}
             />
+          )}
 
-            {/* Full Integrated Aerospace Modules Preview Section */}
-            <div className="pt-2 space-y-6">
-              <div className={`flex flex-wrap items-center justify-between gap-2 border-t ${theme.divider} pt-5`}>
-                <div>
-                  <h2 className="text-lg font-extrabold tracking-tight">
-                    Módulos Especializados de Salud Orbital (CSA · Veggie · Multi-Dispositivo)
-                  </h2>
-                  <p className={`text-xs ${theme.textMuted}`}>
-                    También puedes abrir cada módulo de forma aislada desde las pestañas superiores.
-                  </p>
-                </div>
-              </div>
+          {activeModule === 'radiation' && (
+            <RadiationEvarmModule
+              evaluation={evaluation}
+              knowledgeBase={knowledgeBase}
+              histories={histories}
+              selectedDay={selectedDay}
+              thresholds={thresholds}
+              circadianMode={circadianMode}
+              theme={theme}
+            />
+          )}
 
-              <CsaDosimetryScanner evaluation={evaluation} theme={theme} />
-              <VeggieNutritionModule evaluation={evaluation} theme={theme} />
-              <MultiDeviceEcosystem
-                evaluation={evaluation}
-                circadianMode={circadianMode}
-                theme={theme}
-              />
-            </div>
-          </>
-        )}
+          {activeModule === 'wellness' && (
+            <WellnessVeggieModule
+              evaluation={evaluation}
+              knowledgeBase={knowledgeBase}
+              theme={theme}
+            />
+          )}
 
-        {activeView === 'devices' && (
-          <MultiDeviceEcosystem
-            evaluation={evaluation}
-            circadianMode={circadianMode}
-            theme={theme}
-          />
-        )}
+          {activeModule === 'cognition' && (
+            <DiagnosticSuiteModule
+              evaluation={evaluation}
+              histories={histories}
+              knowledgeBase={knowledgeBase}
+              liveDemoOverrides={liveDemoOverrides}
+              onApplyLivePvt={handleApplyLivePvt}
+              onResetLivePvt={handleResetLivePvt}
+              onSyncLiveOverrides={handleSyncLiveOverrides}
+              onResetAllLiveOverrides={handleResetAllLiveOverrides}
+              circadianMode={circadianMode}
+              theme={theme}
+            />
+          )}
 
-        {activeView === 'dosimetry' && (
-          <CsaDosimetryScanner evaluation={evaluation} theme={theme} />
-        )}
+          {activeModule === 'mission' && (
+            <MissionAlertLogModule
+              alertLog={alertLog}
+              selectedDay={selectedDay}
+              dayData={dayData}
+              circadianMode={circadianMode}
+              onSelectMode={setCircadianMode}
+              onOpenTelemetryModal={() => setIsTelemetryModalOpen(true)}
+              theme={theme}
+            />
+          )}
 
-        {activeView === 'veggie' && (
-          <VeggieNutritionModule evaluation={evaluation} theme={theme} />
-        )}
-      </main>
+          {activeModule === 'ecosystem' && (
+            <MultiDeviceEcosystem
+              evaluation={evaluation}
+              psychInference={psychInference}
+              selectedDay={selectedDay}
+              circadianMode={circadianMode}
+              knowledgeBase={knowledgeBase}
+              theme={theme}
+            />
+          )}
+        </main>
+      </div>
 
-      {/* Footer */}
-      <footer className={`border-t mt-8 py-5 px-4 sm:px-6 text-xs ${theme.divider} ${theme.textMuted}`}>
-        <div className="max-w-[1440px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
-          <div>
-            <strong className={theme.textPrimary}>AURA-7</strong> · Equipo{' '}
-            <strong className="text-sky-500">Andes Space Labs</strong> · NASA Space Apps Challenge 2026
-          </div>
-          <div className="flex flex-wrap items-center gap-3">
-            <span>{telemetryData.mission_profile}</span>
-            <span>·</span>
-            <span>{nasaCsaKb.metadata.total_verified_records} registros NASA HRP &amp; CSA</span>
-            <button
-              type="button"
-              onClick={() => setIsTelemetryModalOpen(true)}
-              className={`font-semibold underline ${theme.accentText}`}
-            >
-              Generar Paquete Houston
-            </button>
-          </div>
-        </div>
-      </footer>
+      {/* Global Autonomous Psychological Inference Companion HUD Overlay (v2.3) */}
+      <SproutBotFloatingWidget
+        inference={psychInference}
+        evaluation={evaluation}
+        selectedDay={selectedDay}
+        circadianMode={circadianMode}
+        liveDemoOverrides={liveDemoOverrides}
+        theme={theme}
+        onTriggerAction={handleTriggerCopilotAction}
+      />
+
+      {/* Fixed Bottom 180-Day Mission Simulator */}
+      <BottomMissionSimulator
+        selectedDay={selectedDay}
+        onSelectDay={handleSelectDay}
+        isPlaying={isPlaying}
+        onTogglePlay={() => setIsPlaying((p) => !p)}
+        theme={theme}
+      />
 
       {/* Asynchronous Earth Telemetry Packet Modal */}
-      <EarthTelemetryModal
+      <EarthSyncPacketModal
         isOpen={isTelemetryModalOpen}
         onClose={() => setIsTelemetryModalOpen(false)}
         evaluation={evaluation}
